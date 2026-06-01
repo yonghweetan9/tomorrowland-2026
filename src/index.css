@@ -141,3 +141,8 @@ label.lab{font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;color:v
   padding:18px 16px calc(18px + var(--safe-b));max-height:88vh;overflow:auto;animation:slideup .28s ease}
 @keyframes slideup{from{transform:translateY(100%)}}
 .sheet-grab{width:42px;height:4px;border-radius:4px;background:var(--line);margin:0 auto 14px}
+.sheet-x{position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:10px;
+  background:rgba(155,92,255,.14);border:1px solid var(--line);color:var(--ink);
+  font-size:1rem;line-height:1;display:grid;place-items:center;z-index:2}
+.sheet-x:active{transform:scale(.92)}
+.sheet{position:relative}

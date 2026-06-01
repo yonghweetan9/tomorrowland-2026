@@ -78,7 +78,8 @@ export default function Landing({ onReady }) {
           color:var(--ink-faint);opacity:0;animation:emoIn .6s ease forwards;animation-delay:calc(var(--i)*.12s + .2s)}
         @keyframes emoIn{to{opacity:.9}}
         .kicker{font-size:.74rem;letter-spacing:.34em;text-transform:uppercase;color:var(--ink-dim);margin:0 0 8px}
-        .hero-title{font-size:clamp(2.6rem,13vw,4rem);line-height:.95;margin:0 0 14px;font-weight:900;
+        .hero-title{font-size:clamp(1.8rem,9vw,3.2rem);line-height:.96;margin:0 0 14px;font-weight:900;
+          letter-spacing:.005em;max-width:100%;overflow-wrap:break-word;
           background:var(--grad-hero);-webkit-background-clip:text;background-clip:text;color:transparent;
           filter:drop-shadow(0 4px 30px rgba(255,61,240,.45))}
         .hero-sub{color:var(--ink-dim);font-size:.92rem;line-height:1.5;margin:0 0 28px}

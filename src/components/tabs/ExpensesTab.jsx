@@ -313,6 +313,7 @@ function ExpenseSheet({ exp, me, members, rate, onClose, onSaved }) {
   return (
     <div className="sheet-bg" onClick={onClose}>
       <div className="sheet" onClick={e => e.stopPropagation()}>
+        <button className="sheet-x" onClick={onClose} aria-label="Close">✕</button>
         <div className="sheet-grab" />
         <h3 style={{ marginTop: 0 }}>{exp ? 'Edit expense' : 'Add expense'}</h3>
 
@@ -452,8 +453,9 @@ function ReportModal({ expenses, members, memberById, disp, total, cur, rate, on
   return (
     <div className="sheet-bg" onClick={onClose}>
       <div className="sheet" onClick={e => e.stopPropagation()}>
+        <button className="sheet-x" onClick={onClose} aria-label="Close">✕</button>
         <div className="sheet-grab" />
-        <div className="between"><h3 style={{ margin: 0 }}>📊 Analytics</h3><span className="tot-amt">{disp(total)}</span></div>
+        <div className="between" style={{ paddingRight: 38 }}><h3 style={{ margin: 0 }}>📊 Analytics</h3><span className="tot-amt">{disp(total)}</span></div>
 
         <div className="lab" style={{ marginTop: 14 }}>Spend by category</div>
         <BarList data={byCat} max={Math.max(1, ...Object.values(byCat))} disp={disp} />

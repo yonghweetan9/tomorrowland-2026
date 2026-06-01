@@ -67,15 +67,26 @@ export default function LineupTab({ me, onShare, goItinerary, showToast }) {
     return r
   }, [rows, day, q, sort])
 
-  async function addToItinerary(row) {
+  async function toggleItinerary(row) {
     if (!supabase || !me) return
     const key = `${row.day}|${row.artist_name}|${row.stage_name}`
-    const { error } = await supabase.from('itinerary_items').insert({
-      day: row.day, artist_name: row.artist_name, stage_name: row.stage_name,
-      start_time: row.start_time ?? null, end_time: row.end_time ?? null, added_by: me.id,
-    })
-    if (!error) { setMine(prev => new Set(prev).add(key)); showToast(`Added ${row.artist_name} ✦`) }
-    else showToast('Could not add')
+    if (mine.has(key)) {
+      // undo: remove my itinerary item(s) for this set
+      const { error } = await supabase.from('itinerary_items').delete()
+        .eq('added_by', me.id).eq('day', row.day)
+        .eq('artist_name', row.artist_name).eq('stage_name', row.stage_name)
+      if (!error) {
+        setMine(prev => { const n = new Set(prev); n.delete(key); return n })
+        showToast(`Removed ${row.artist_name}`)
+      } else showToast('Could not remove')
+    } else {
+      const { error } = await supabase.from('itinerary_items').insert({
+        day: row.day, artist_name: row.artist_name, stage_name: row.stage_name,
+        start_time: row.start_time ?? null, end_time: row.end_time ?? null, added_by: me.id,
+      })
+      if (!error) { setMine(prev => new Set(prev).add(key)); showToast(`Added ${row.artist_name} ✦`) }
+      else showToast('Could not add')
+    }
   }
 
   return (
@@ -123,8 +134,8 @@ export default function LineupTab({ me, onShare, goItinerary, showToast }) {
                 {t ? <span className="badge-time">{t}</span> : <span className="tba">TBA</span>}
                 <button
                   className={'add-btn' + (added ? ' added' : '')}
-                  onClick={() => !added && addToItinerary(row)}
-                  title={added ? 'In your itinerary' : 'Add to itinerary'}
+                  onClick={() => toggleItinerary(row)}
+                  title={added ? 'In your itinerary — tap to remove' : 'Add to itinerary'}
                 >{added ? '✓' : '➕'}</button>
               </div>
             </div>

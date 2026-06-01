@@ -39,6 +39,7 @@ export default function MapTab({ me, members, showToast }) {
   const watchId = useRef(null)
   const worker = useRef(null)
   const [perm, setPerm] = useState('unknown')
+  const [showCrew, setShowCrew] = useState(false)
 
   useEffect(() => { sharingRef.current = sharing }, [sharing])
 
@@ -164,10 +165,13 @@ export default function MapTab({ me, members, showToast }) {
           <h1 className="screen-title">Map</h1>
           <p className="screen-sub">{FESTIVAL.venue}</p>
         </div>
-        <button
-          className={'btn btn-sm ' + (sharing ? '' : 'btn-ghost')}
-          onClick={() => { setSharing(s => !s); showToast(sharing ? 'Location paused' : 'Sharing location ✦') }}
-        >{sharing ? '📍 Sharing' : '⏸ Paused'}</button>
+        <div className="row" style={{ gap: 6 }}>
+          <button className="btn btn-ghost btn-sm" onClick={() => setShowCrew(true)}>👥 Crew</button>
+          <button
+            className={'btn btn-sm ' + (sharing ? '' : 'btn-ghost')}
+            onClick={() => { setSharing(s => !s); showToast(sharing ? 'Location paused' : 'Sharing location ✦') }}
+          >{sharing ? '📍 On' : '⏸ Off'}</button>
+        </div>
       </div>
 
       <div className="map-card">
@@ -184,6 +188,11 @@ export default function MapTab({ me, members, showToast }) {
           {myLoc ? `You: ${agoLabel(myLoc.updated_at)}` : sharing ? 'Locating…' : 'Paused'}
         </span>
       </div>
+
+      {showCrew && (
+        <ManageCrew me={me} members={members} locations={locations}
+          onClose={() => setShowCrew(false)} showToast={showToast} />
+      )}
 
       <style>{`
         .map-card{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);
@@ -204,6 +213,96 @@ export default function MapTab({ me, members, showToast }) {
         .fest span{font-size:1.1rem;color:var(--gold);filter:drop-shadow(0 0 6px var(--gold))}
         .fest b{font-size:.7rem;color:#fff;background:rgba(7,4,17,.8);padding:2px 7px;border-radius:7px;border:1px solid var(--line)}
       `}</style>
+    </div>
+  )
+}
+
+// ── Manage crew: list members, detect & remove duplicate accounts ──
+function ManageCrew({ me, members, locations, onClose, showToast }) {
+  const [confirm, setConfirm] = useState(null) // member pending manual removal
+  const lastSeen = Object.fromEntries(locations.map(l => [l.member_id, l.updated_at]))
+
+  // group by normalized name to detect duplicates
+  const norm = s => (s || '').trim().toLowerCase()
+  const groups = {}
+  for (const m of members) (groups[norm(m.display_name)] ||= []).push(m)
+  // members safe to auto-remove as duplicates: in a group of >1, keep the
+  // earliest-created (or "me" if present), mark the rest — but never mark me.
+  const dupIds = []
+  for (const list of Object.values(groups)) {
+    if (list.length < 2) continue
+    const sorted = [...list].sort((a, b) => new Date(a.created_at) - new Date(b.created_at))
+    const keep = sorted.find(x => x.id === me.id) || sorted[0]
+    for (const x of sorted) if (x.id !== keep.id && x.id !== me.id) dupIds.push(x.id)
+  }
+
+  async function removeMembers(ids, label) {
+    if (!supabase || !ids.length) return
+    const { error } = await supabase.from('members').delete().in('id', ids)
+    showToast(error ? 'Could not remove' : label)
+    setConfirm(null)
+  }
+
+  return (
+    <div className="sheet-bg" onClick={onClose}>
+      <div className="sheet" onClick={e => e.stopPropagation()}>
+        <button className="sheet-x" onClick={onClose} aria-label="Close">✕</button>
+        <div className="sheet-grab" />
+        <h3 style={{ marginTop: 0 }}>👥 Manage crew</h3>
+        <p className="muted" style={{ marginTop: -6, fontSize: '.82rem' }}>{members.length} member{members.length !== 1 ? 's' : ''} joined via the link.</p>
+
+        {dupIds.length > 0 && (
+          <div className="dup-banner">
+            <span style={{ fontSize: '.84rem' }}>⚠ {dupIds.length} possible duplicate account{dupIds.length !== 1 ? 's' : ''} detected.</span>
+            <button className="btn btn-sm btn-gold" onClick={() => removeMembers(dupIds, 'Duplicates removed ✦')}>Remove duplicates</button>
+          </div>
+        )}
+
+        <div className="crew-list">
+          {members.map(m => {
+            const isMe = m.id === me.id
+            const isDup = dupIds.includes(m.id)
+            return (
+              <div key={m.id} className={'crew-row' + (isDup ? ' dup' : '')}>
+                <div className="row" style={{ gap: 10, minWidth: 0 }}>
+                  <span className="avatar" style={{ background: m.color }}>{initials(m.display_name)}</span>
+                  <div style={{ minWidth: 0 }}>
+                    <div className="crew-name">{m.display_name}{isMe && <span className="you-badge">you</span>}{isDup && <span className="dup-badge">duplicate</span>}</div>
+                    <div className="muted" style={{ fontSize: '.7rem' }}>{lastSeen[m.id] ? `seen ${agoLabel(lastSeen[m.id])}` : 'no location yet'}</div>
+                  </div>
+                </div>
+                {isMe
+                  ? <span className="muted" style={{ fontSize: '.72rem' }}>—</span>
+                  : <button className="mini-x" onClick={() => setConfirm(m)} title="Remove">🗑</button>}
+              </div>
+            )
+          })}
+        </div>
+
+        {confirm && (
+          <div className="confirm-inline">
+            <span style={{ fontSize: '.84rem' }}>Remove <b>{confirm.display_name}</b>? This also clears their itinerary additions, location and unpays their expenses.</span>
+            <div className="row" style={{ marginTop: 10 }}>
+              <button className="btn btn-ghost btn-sm btn-block" onClick={() => setConfirm(null)}>Cancel</button>
+              <button className="btn btn-sm btn-block" style={{ background: 'linear-gradient(120deg,#ff3d6e,#ff7a3d)' }} onClick={() => removeMembers([confirm.id], 'Removed')}>Remove</button>
+            </div>
+          </div>
+        )}
+
+        <style>{`
+          .dup-banner{display:flex;align-items:center;justify-content:space-between;gap:10px;
+            background:rgba(255,160,60,.12);border:1px solid rgba(255,160,60,.3);border-radius:12px;padding:10px 12px;margin:6px 0 12px}
+          .crew-list{display:flex;flex-direction:column;gap:7px}
+          .crew-row{display:flex;align-items:center;justify-content:space-between;gap:10px;
+            background:rgba(29,23,64,.5);border:1px solid var(--line);border-radius:12px;padding:9px 11px}
+          .crew-row.dup{border-color:rgba(255,160,60,.4)}
+          .crew-name{font-weight:700;font-size:.9rem;display:flex;align-items:center;gap:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+          .you-badge{font-size:.62rem;font-weight:700;color:var(--teal);background:rgba(57,230,208,.14);padding:1px 6px;border-radius:6px;text-transform:uppercase;letter-spacing:.04em}
+          .dup-badge{font-size:.62rem;font-weight:700;color:var(--ember);background:rgba(255,122,61,.14);padding:1px 6px;border-radius:6px;text-transform:uppercase;letter-spacing:.04em}
+          .mini-x{width:32px;height:32px;border-radius:9px;background:rgba(255,61,110,.14);border:1px solid var(--line);font-size:.82rem;flex:0 0 auto}
+          .confirm-inline{margin-top:12px;background:rgba(7,4,17,.5);border:1px solid var(--line);border-radius:12px;padding:12px}
+        `}</style>
+      </div>
     </div>
   )
 }

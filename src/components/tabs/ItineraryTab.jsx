@@ -268,6 +268,7 @@ function TimeSheet({ block, onClose, onSave }) {
   return (
     <div className="sheet-bg" onClick={onClose}>
       <div className="sheet" onClick={e => e.stopPropagation()}>
+        <button className="sheet-x" onClick={onClose} aria-label="Close">✕</button>
         <div className="sheet-grab" />
         <h3 style={{ marginTop: 0 }}>{block.artist_name}</h3>
         <p className="muted" style={{ marginTop: -6 }}>{block.stage_name}</p>
