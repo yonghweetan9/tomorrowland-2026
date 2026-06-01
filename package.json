@@ -1,0 +1,24 @@
+{
+  "name": "tomorrowland-2026-companion",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Tomorrowland 2026 Weekend 2 group companion app — lineup, shared itinerary, live map, expenses.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "scrape": "node scripts/scrape-lineup.mjs",
+    "seed": "node scripts/seed-lineup.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2"
+  }
+}
