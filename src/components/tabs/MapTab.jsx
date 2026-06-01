@@ -58,7 +58,17 @@ export default function MapTab({ me, members, showToast }) {
       icon: L.divIcon({ className: 'fest-wrap', html: `<div class="fest"><span>✦</span><b>De Schorre</b></div>`, iconSize: [0, 0] }),
     }).addTo(map)
     mapRef.current = map
-    return () => { map.remove(); mapRef.current = null }
+    // ensure Leaflet measures the real container size (dynamic viewport height)
+    const fix = () => map.invalidateSize()
+    const t = setTimeout(fix, 120)
+    window.addEventListener('resize', fix)
+    window.addEventListener('orientationchange', fix)
+    return () => {
+      clearTimeout(t)
+      window.removeEventListener('resize', fix)
+      window.removeEventListener('orientationchange', fix)
+      map.remove(); mapRef.current = null
+    }
   }, [])
 
   // live locations
@@ -222,7 +232,7 @@ export default function MapTab({ me, members, showToast }) {
           background:rgba(13,8,32,.92);border:1px solid var(--line);color:var(--teal);font-size:1.35rem;line-height:1;
           display:grid;place-items:center;box-shadow:0 4px 18px rgba(0,0,0,.55),var(--glow);backdrop-filter:blur(6px)}
         .recenter-btn:active{transform:scale(.92)}
-        .map{height:62vh;min-height:380px;background:#0b0a16}
+        .map{height:calc(100dvh - 232px);min-height:320px;background:#0b0a16}
         .leaflet-container{background:#0b0a16}
         .map-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;
           padding:10px 12px;margin-top:10px}
