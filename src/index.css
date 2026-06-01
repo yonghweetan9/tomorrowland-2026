@@ -134,7 +134,7 @@ label.lab{font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;color:v
 .fade-in{animation:fade .35s ease}@keyframes fade{from{opacity:0;transform:translateY(6px)}}
 
 /* sheet / modal */
-.sheet-bg{position:fixed;inset:0;background:rgba(4,2,10,.66);backdrop-filter:blur(3px);z-index:100;
+.sheet-bg{position:fixed;inset:0;background:rgba(4,2,10,.66);backdrop-filter:blur(3px);z-index:2000;
   display:flex;align-items:flex-end;justify-content:center;animation:fade .2s ease}
 .sheet{width:100%;max-width:520px;background:linear-gradient(180deg,var(--bg-2),var(--bg-1));
   border-top-left-radius:24px;border-top-right-radius:24px;border:1px solid var(--line);
