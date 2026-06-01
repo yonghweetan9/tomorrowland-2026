@@ -38,6 +38,8 @@ export default function MapTab({ me, members, showToast }) {
   const lastWrite = useRef(0)
   const watchId = useRef(null)
   const worker = useRef(null)
+  const myPosRef = useRef(null)   // latest known own coords
+  const didCenter = useRef(false) // have we auto-centered on me yet
   const [perm, setPerm] = useState('unknown')
   const [showCrew, setShowCrew] = useState(false)
 
@@ -98,13 +100,31 @@ export default function MapTab({ me, members, showToast }) {
     }
   }, [locations, members, me])
 
+  // recenter the map on my current location (used on first fix + the button)
+  function centerOn(lat, lng, zoom = 16) {
+    myPosRef.current = { lat, lng }
+    if (mapRef.current) mapRef.current.setView([lat, lng], zoom)
+  }
+  function recenterMe() {
+    if (myPosRef.current) { centerOn(myPosRef.current.lat, myPosRef.current.lng); return }
+    if (!('geolocation' in navigator)) { showToast('Location unavailable'); return }
+    navigator.geolocation.getCurrentPosition(
+      p => centerOn(p.coords.latitude, p.coords.longitude),
+      () => showToast('Location unavailable — check permissions'),
+      { enableHighAccuracy: true, maximumAge: 0, timeout: 12000 }
+    )
+  }
+
   // write my position
   async function pushPosition(pos, force) {
+    const { latitude: lat, longitude: lng } = pos.coords
+    myPosRef.current = { lat, lng }
+    // first time we know where you are, snap the map to you
+    if (!didCenter.current && mapRef.current) { mapRef.current.setView([lat, lng], 16); didCenter.current = true }
     if (!supabase || !me || !sharingRef.current) return
     const now = Date.now()
     if (!force && now - lastWrite.current < LIVE_THROTTLE_MS) return
     lastWrite.current = now
-    const { latitude: lat, longitude: lng } = pos.coords
     await supabase.from('locations').upsert(
       { member_id: me.id, lat, lng, updated_at: new Date().toISOString() },
       { onConflict: 'member_id' }
@@ -176,6 +196,7 @@ export default function MapTab({ me, members, showToast }) {
 
       <div className="map-card">
         <div ref={mapEl} className="map" />
+        <button className="recenter-btn" onClick={recenterMe} title="Center on my location" aria-label="Center on my location">◎</button>
       </div>
 
       <div className="map-foot glass">
@@ -195,8 +216,12 @@ export default function MapTab({ me, members, showToast }) {
       )}
 
       <style>{`
-        .map-card{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);
+        .map-card{position:relative;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);
           box-shadow:0 10px 50px rgba(0,0,0,.5)}
+        .recenter-btn{position:absolute;right:12px;bottom:42px;z-index:1001;width:44px;height:44px;border-radius:50%;
+          background:rgba(13,8,32,.92);border:1px solid var(--line);color:var(--teal);font-size:1.35rem;line-height:1;
+          display:grid;place-items:center;box-shadow:0 4px 18px rgba(0,0,0,.55),var(--glow);backdrop-filter:blur(6px)}
+        .recenter-btn:active{transform:scale(.92)}
         .map{height:62vh;min-height:380px;background:#0b0a16}
         .leaflet-container{background:#0b0a16}
         .map-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;
