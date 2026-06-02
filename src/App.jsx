@@ -53,10 +53,12 @@ export default function App() {
 
   return (
     <div className="app">
-      {tab === 'lineup'    && <LineupTab    {...tabProps} onShare={shareLink} goItinerary={() => setTab('itinerary')} />}
-      {tab === 'itinerary' && <ItineraryTab {...tabProps} />}
-      {tab === 'map'       && <MapTab       {...tabProps} />}
-      {tab === 'expenses'  && <ExpensesTab  {...tabProps} />}
+      <main className="app-main">
+        {tab === 'lineup'    && <LineupTab    {...tabProps} onShare={shareLink} goItinerary={() => setTab('itinerary')} />}
+        {tab === 'itinerary' && <ItineraryTab {...tabProps} />}
+        {tab === 'map'       && <MapTab       {...tabProps} />}
+        {tab === 'expenses'  && <ExpensesTab  {...tabProps} />}
+      </main>
       <BottomNav tab={tab} setTab={setTab} />
       {toast && <div className="toast">{toast}</div>}
     </div>
