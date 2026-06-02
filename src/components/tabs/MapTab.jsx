@@ -189,7 +189,7 @@ export default function MapTab({ me, members, showToast }) {
   const myLoc = locations.find(l => l.member_id === me.id)
 
   return (
-    <div className="screen fade-in" style={{ paddingBottom: 0, display: 'flex', flexDirection: 'column' }}>
+    <div className="screen fade-in" style={{ paddingBottom: 0 }}>
       <div className="screen-head">
         <div>
           <h1 className="screen-title">Map</h1>
@@ -226,13 +226,13 @@ export default function MapTab({ me, members, showToast }) {
       )}
 
       <style>{`
-        .map-card{position:relative;flex:1;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);
+        .map-card{position:relative;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);
           box-shadow:0 10px 50px rgba(0,0,0,.5)}
         .recenter-btn{position:absolute;right:12px;bottom:42px;z-index:1001;width:44px;height:44px;border-radius:50%;
           background:rgba(13,8,32,.92);border:1px solid var(--line);color:var(--teal);font-size:1.35rem;line-height:1;
           display:grid;place-items:center;box-shadow:0 4px 18px rgba(0,0,0,.55),var(--glow);backdrop-filter:blur(6px)}
         .recenter-btn:active{transform:scale(.92)}
-        .map{height:100%;min-height:300px;background:#0b0a16}
+        .map{height:calc(100dvh - 240px);min-height:300px;background:#0b0a16}
         .leaflet-container{background:#0b0a16}
         .map-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;
           padding:10px 12px;margin-top:10px}
