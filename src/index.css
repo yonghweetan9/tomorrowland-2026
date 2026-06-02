@@ -56,8 +56,7 @@ input,select,textarea{font-family:inherit}
 ::-webkit-scrollbar-thumb{background:rgba(155,92,255,.35);border-radius:8px}
 
 /* ── App shell ── */
-.app{position:fixed;top:0;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:520px;
-  display:flex;flex-direction:column}
+.app{max-width:520px;margin:0 auto;height:100dvh;display:flex;flex-direction:column;position:relative;overflow:hidden}
 .app-main{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;min-height:0}
 .screen{padding:18px 16px 8px}
 .screen-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
