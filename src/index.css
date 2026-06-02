@@ -31,6 +31,8 @@
 
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body,#root{height:100%}
+html{overflow:hidden}
+body{position:fixed;inset:0;overflow:hidden}
 body{
   margin:0;color:var(--ink);
   background:
@@ -55,7 +57,7 @@ input,select,textarea{font-family:inherit}
 ::-webkit-scrollbar-thumb{background:rgba(155,92,255,.35);border-radius:8px}
 
 /* ── App shell ── */
-.app{max-width:520px;margin:0 auto;height:100dvh;display:flex;flex-direction:column;position:relative}
+.app{max-width:520px;margin:0 auto;height:100%;display:flex;flex-direction:column;position:relative}
 .app-main{flex:1;display:flex;flex-direction:column;overflow-y:auto;-webkit-overflow-scrolling:touch;min-height:0}
 .screen{padding:18px 16px 8px;flex:1 0 auto;display:flex;flex-direction:column}
 .screen-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:14px}
