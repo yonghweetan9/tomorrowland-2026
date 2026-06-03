@@ -355,7 +355,7 @@ function ManageCrew({ me, members, locations, onClose, showToast }) {
 
   return (
     <div className="sheet-bg" onClick={onClose}>
-      <div className="sheet" onClick={e => e.stopPropagation()}>
+      <div className="sheet crew-sheet" onClick={e => e.stopPropagation()}>
         <button className="sheet-x" onClick={onClose} aria-label="Close">✕</button>
         <div className="sheet-grab" />
         <h3 style={{ marginTop: 0 }}>👥 Manage crew</h3>
@@ -368,6 +368,7 @@ function ManageCrew({ me, members, locations, onClose, showToast }) {
           </div>
         )}
 
+        <div className="crew-scroll">
         <div className="crew-list">
           {members.map(m => {
             const isMe = m.id === me.id
@@ -398,8 +399,11 @@ function ManageCrew({ me, members, locations, onClose, showToast }) {
             </div>
           </div>
         )}
+        </div>
 
         <style>{`
+          .sheet.crew-sheet{display:flex;flex-direction:column;overflow:hidden}
+          .crew-scroll{flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;margin:0 -4px;padding:2px 4px}
           .dup-banner{display:flex;align-items:center;justify-content:space-between;gap:10px;
             background:rgba(255,160,60,.12);border:1px solid rgba(255,160,60,.3);border-radius:12px;padding:10px 12px;margin:6px 0 12px}
           .crew-list{display:flex;flex-direction:column;gap:7px}
