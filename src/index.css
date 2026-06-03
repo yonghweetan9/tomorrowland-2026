@@ -138,7 +138,7 @@ label.lab{font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;color:v
   font-size:.86rem;z-index:200;box-shadow:0 10px 40px rgba(0,0,0,.5);animation:rise .25s ease}
 @keyframes rise{from{opacity:0;transform:translate(-50%,8px)}}
 .divider{height:1px;background:var(--line);margin:12px 0}
-.fade-in{animation:fade .35s ease}@keyframes fade{from{opacity:0;transform:translateY(6px)}}
+.fade-in{animation:fade .35s ease}@keyframes fade{from{opacity:0}}
 
 /* sheet / modal */
 .sheet-bg{position:fixed;inset:0;background:rgba(4,2,10,.66);backdrop-filter:blur(3px);z-index:2000;
