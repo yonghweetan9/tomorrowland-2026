@@ -402,9 +402,9 @@ function ManageCrew({ me, members, locations, onClose, showToast }) {
         </div>
 
         <style>{`
-          /* Let the whole sheet scroll as one element (Safari-safe; a nested
-             flex:1 + overflow child won't scroll inside a max-height parent on iOS). */
-          .crew-scroll{display:contents}
+          /* Whole sheet scrolls as one element — matches the proven Tan Fam
+             Manage Members sheet. No nested flex scroller (breaks on iOS Safari). */
+          .crew-scroll{display:block}
           .dup-banner{display:flex;align-items:center;justify-content:space-between;gap:10px;
             background:rgba(255,160,60,.12);border:1px solid rgba(255,160,60,.3);border-radius:12px;padding:10px 12px;margin:6px 0 12px}
           .crew-list{display:flex;flex-direction:column;gap:7px}
