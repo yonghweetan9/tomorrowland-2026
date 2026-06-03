@@ -188,6 +188,24 @@ export default function MapTab({ me, members, showToast }) {
 
   const myLoc = locations.find(l => l.member_id === me.id)
 
+  // crew banner: every member, most-recently-seen first, "no location" last
+  const lastSeen = Object.fromEntries(locations.map(l => [l.member_id, l.updated_at]))
+  const crew = [...members].sort((a, b) => {
+    const ta = lastSeen[a.id] ? new Date(lastSeen[a.id]).getTime() : -1
+    const tb = lastSeen[b.id] ? new Date(lastSeen[b.id]).getTime() : -1
+    if (a.id === me.id) return -1
+    if (b.id === me.id) return 1
+    return tb - ta
+  })
+
+  // tap a crew chip → pan/zoom to that member and open their popup
+  function focusMember(m) {
+    const loc = locations.find(l => l.member_id === m.id)
+    if (!loc) { showToast(`${m.display_name} hasn't shared a location yet`); return }
+    centerOn(loc.lat, loc.lng, 17)
+    markers.current[m.id]?.openPopup()
+  }
+
   return (
     <div className="screen fade-in" style={{ paddingBottom: 0 }}>
       <div className="screen-head">
@@ -209,16 +227,41 @@ export default function MapTab({ me, members, showToast }) {
         <button className="recenter-btn" onClick={recenterMe} title="Center on my location" aria-label="Center on my location">◎</button>
       </div>
 
-      <div className="map-foot glass">
-        <span className="muted" style={{ fontSize: '.78rem' }}>
-          {perm === 'denied'
-            ? '⚠ Location blocked — enable it in your browser to appear on the map.'
-            : '💡 Keep this tab open for live updates.'}
-        </span>
-        <span className="muted" style={{ fontSize: '.74rem' }}>
-          {myLoc ? `You: ${agoLabel(myLoc.updated_at)}` : sharing ? 'Locating…' : 'Paused'}
-        </span>
+      <div className="crew-strip">
+        {crew.length === 0 && (
+          <span className="muted" style={{ fontSize: '.76rem', padding: '6px 2px' }}>No crew yet — share the link to add people.</span>
+        )}
+        {crew.map(m => {
+          const seen = lastSeen[m.id]
+          const isMe = m.id === me.id
+          const fresh = seen && (Date.now() - new Date(seen).getTime()) < 10 * 60 * 1000
+          return (
+            <button
+              key={m.id}
+              className={'crew-chip' + (isMe ? ' me' : '') + (seen ? '' : ' off')}
+              style={{ '--c': m.color }}
+              onClick={() => focusMember(m)}
+              title={`Center on ${m.display_name}`}
+            >
+              <span className="cc-top">
+                <span className="cc-dot" />
+                <span className="cc-name">{m.display_name}{isMe ? ' (you)' : ''}</span>
+              </span>
+              <span className={'cc-seen' + (fresh ? ' fresh' : '')}>
+                {seen ? agoLabel(seen) : 'no location'}
+              </span>
+            </button>
+          )
+        })}
       </div>
+
+      {perm === 'denied' && (
+        <div className="map-foot glass">
+          <span className="muted" style={{ fontSize: '.78rem' }}>
+            ⚠ Location blocked — enable it in your browser to appear on the map.
+          </span>
+        </div>
+      )}
 
       {showCrew && (
         <ManageCrew me={me} members={members} locations={locations}
@@ -232,10 +275,25 @@ export default function MapTab({ me, members, showToast }) {
           background:rgba(13,8,32,.92);border:1px solid var(--line);color:var(--teal);font-size:1.35rem;line-height:1;
           display:grid;place-items:center;box-shadow:0 4px 18px rgba(0,0,0,.55),var(--glow);backdrop-filter:blur(6px)}
         .recenter-btn:active{transform:scale(.92)}
-        .map{height:calc(100dvh - 240px);min-height:300px;background:#0b0a16}
+        .map{height:calc(100dvh - 312px);min-height:240px;background:#0b0a16}
         .leaflet-container{background:#0b0a16}
         .map-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;
           padding:10px 12px;margin-top:10px}
+        .crew-strip{display:flex;gap:8px;overflow-x:auto;padding:10px 2px 2px;margin-top:2px;
+          scrollbar-width:none;-webkit-overflow-scrolling:touch}
+        .crew-strip::-webkit-scrollbar{display:none}
+        .crew-chip{flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-start;gap:3px;
+          background:rgba(29,23,64,.55);border:1px solid var(--line);border-radius:13px;padding:8px 12px;
+          text-align:left;cursor:pointer;transition:transform .1s ease,border-color .1s ease}
+        .crew-chip:active{transform:scale(.95)}
+        .crew-chip.me{border-color:var(--c);box-shadow:0 0 0 1px var(--c),0 0 14px -4px var(--c)}
+        .crew-chip.off{opacity:.55}
+        .cc-top{display:flex;align-items:center;gap:6px}
+        .cc-dot{width:10px;height:10px;border-radius:50%;background:var(--c);
+          border:1.5px solid #fff;box-shadow:0 0 8px var(--c);flex:0 0 auto}
+        .cc-name{font-size:.82rem;font-weight:700;color:#fff;white-space:nowrap}
+        .cc-seen{font-size:.68rem;color:var(--muted,#9b93c4);white-space:nowrap;padding-left:16px}
+        .cc-seen.fresh{color:var(--teal)}
         .mk-wrap,.fest-wrap{background:none;border:none}
         .mk{display:flex;align-items:center;gap:5px;transform:translate(-7px,-7px)}
         .mk-dot{width:15px;height:15px;border-radius:50%;background:var(--c);

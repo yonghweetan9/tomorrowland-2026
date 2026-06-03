@@ -132,9 +132,6 @@ export default function ExpensesTab({ me, members, showToast }) {
         .seg-b{flex:1;padding:9px;border-radius:10px;font-weight:700;font-size:.86rem;background:none;color:var(--ink-faint)}
         .seg-b.on{background:var(--grad-btn);color:#fff;box-shadow:var(--glow)}
         .exp-list{display:flex;flex-direction:column;gap:8px;margin-bottom:90px}
-        .exp-actions{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(var(--nav-h) + var(--safe-b) + 10px);
-          width:100%;max-width:520px;padding:0 16px;display:flex;gap:10px;z-index:40}
-        .exp-actions .btn{flex:1}
       `}</style>
     </div>
   )

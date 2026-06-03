@@ -102,6 +102,12 @@ label.lab{font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;color:v
   font-size:.7rem;font-weight:800;color:#0a0612;border:2px solid rgba(7,4,17,.8);flex:0 0 auto}
 .avatar-stack{display:flex}.avatar-stack .avatar:not(:first-child){margin-left:-8px}
 
+/* ── Expenses floating actions ── */
+.exp-actions{position:fixed;left:50%;transform:translateX(-50%);
+  bottom:calc(var(--nav-h) + var(--safe-b) + 10px);
+  width:100%;max-width:520px;padding:0 16px;display:flex;gap:10px;z-index:40}
+.exp-actions .btn{flex:1}
+
 /* ── Bottom nav ── */
 .bottom-nav{flex:0 0 auto;width:100%;
   height:calc(var(--nav-h) + var(--safe-b));padding-bottom:var(--safe-b);
