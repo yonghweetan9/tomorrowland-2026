@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { supabase } from '../../supabaseClient'
 import { fetchRate, toSGD, fmt } from '../../lib/currency'
 import { CATEGORIES, sharesFor, netBalances, simplifyDebts } from '../../lib/expenses'
@@ -307,7 +308,7 @@ function ExpenseSheet({ exp, me, members, rate, onClose, onSaved }) {
     if (!res.error) onSaved()
   }
 
-  return (
+  return createPortal(
     <div className="sheet-bg" onClick={onClose}>
       <div className="sheet" onClick={e => e.stopPropagation()}>
         <button className="sheet-x" onClick={onClose} aria-label="Close">✕</button>
@@ -407,7 +408,8 @@ function ExpenseSheet({ exp, me, members, rate, onClose, onSaved }) {
           select.field{appearance:none}
         `}</style>
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
 
@@ -447,7 +449,7 @@ function ReportModal({ expenses, members, memberById, disp, total, cur, rate, on
     if (w) { w.document.write(html); w.document.close() }
   }
 
-  return (
+  return createPortal(
     <div className="sheet-bg" onClick={onClose}>
       <div className="sheet" onClick={e => e.stopPropagation()}>
         <button className="sheet-x" onClick={onClose} aria-label="Close">✕</button>
@@ -478,7 +480,8 @@ function ReportModal({ expenses, members, memberById, disp, total, cur, rate, on
         <button className="btn btn-gold btn-block" style={{ marginTop: 14 }} onClick={exportReport}>⬇ Export / Print (PDF)</button>
         <style>{`.tot-amt{font-weight:800;font-size:1.1rem;color:var(--violet)}`}</style>
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
 

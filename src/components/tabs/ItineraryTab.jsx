@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { supabase } from '../../supabaseClient'
 import { DAYS, hhmm } from '../../lib/festival'
 import { initials } from '../../lib/colors'
@@ -187,7 +188,7 @@ export default function ItineraryTab({ me, members, showToast }) {
       </div>
 
       {editing && <TimeSheet block={editing} onClose={() => setEditing(null)} onSave={saveTime} />}
-      {confirmDel && (
+      {confirmDel && createPortal(
         <div className="sheet-bg" onClick={() => setConfirmDel(null)}>
           <div className="sheet" onClick={e => e.stopPropagation()}>
             <div className="sheet-grab" />
@@ -198,7 +199,8 @@ export default function ItineraryTab({ me, members, showToast }) {
               <button className="btn btn-block" style={{ background: 'linear-gradient(120deg,#ff3d6e,#ff7a3d)' }} onClick={() => deleteBlock(confirmDel)}>Remove</button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
 
       <style>{`
@@ -265,7 +267,7 @@ function BlockCard({ block, me, memberById, onEdit, onDelete, compact, inGrid })
 function TimeSheet({ block, onClose, onSave }) {
   const [start, setStart] = useState(hhmm(block.start_time) ?? '')
   const [end, setEnd] = useState(hhmm(block.end_time) ?? '')
-  return (
+  return createPortal(
     <div className="sheet-bg" onClick={onClose}>
       <div className="sheet" onClick={e => e.stopPropagation()}>
         <button className="sheet-x" onClick={onClose} aria-label="Close">✕</button>
@@ -281,6 +283,7 @@ function TimeSheet({ block, onClose, onSave }) {
           <button className="btn btn-block" onClick={() => onSave(block, start, end)} disabled={!start}>Save</button>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
