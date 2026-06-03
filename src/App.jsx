@@ -61,6 +61,11 @@ export default function App() {
       </main>
       <BottomNav tab={tab} setTab={setTab} />
       {toast && <div className="toast">{toast}</div>}
+      <button
+        className="build-badge"
+        title={`Build ${__BUILD_ID__} — tap to copy`}
+        onClick={() => { navigator.clipboard?.writeText(__BUILD_ID__).then(() => showToast('Build ID copied'), () => {}) }}
+      >v{__BUILD_ID__}</button>
     </div>
   )
 }

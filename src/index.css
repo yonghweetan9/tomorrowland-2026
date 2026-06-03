@@ -139,6 +139,11 @@ label.lab{font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;color:v
 @keyframes rise{from{opacity:0;transform:translate(-50%,8px)}}
 .divider{height:1px;background:var(--line);margin:12px 0}
 .fade-in{animation:fade .35s ease}@keyframes fade{from{opacity:0}}
+.build-badge{position:fixed;right:6px;bottom:calc(var(--nav-h) + var(--safe-b) + 2px);z-index:60;
+  font-size:9px;line-height:1;letter-spacing:.02em;color:var(--ink-faint);opacity:.45;
+  background:rgba(7,4,17,.45);border:1px solid var(--line);border-radius:7px;padding:3px 6px;
+  font-family:ui-monospace,Menlo,monospace;backdrop-filter:blur(4px)}
+.build-badge:active{opacity:.9}
 
 /* sheet / modal */
 .sheet-bg{position:fixed;inset:0;background:rgba(4,2,10,.66);backdrop-filter:blur(3px);z-index:2000;
