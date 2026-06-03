@@ -145,7 +145,7 @@ label.lab{font-size:.74rem;text-transform:uppercase;letter-spacing:.08em;color:v
   display:flex;align-items:flex-end;justify-content:center;animation:fade .2s ease}
 .sheet{width:100%;max-width:520px;background:linear-gradient(180deg,var(--bg-2),var(--bg-1));
   border-top-left-radius:24px;border-top-right-radius:24px;border:1px solid var(--line);
-  padding:18px 16px calc(18px + var(--safe-b));max-height:88vh;overflow:auto;animation:slideup .28s ease}
+  padding:18px 16px calc(18px + var(--safe-b));max-height:85dvh;overflow-y:auto;-webkit-overflow-scrolling:touch;animation:slideup .28s ease}
 @keyframes slideup{from{transform:translateY(100%)}}
 .sheet-grab{width:42px;height:4px;border-radius:4px;background:var(--line);margin:0 auto 14px}
 .sheet-x{position:absolute;top:14px;right:14px;width:32px;height:32px;border-radius:10px;
