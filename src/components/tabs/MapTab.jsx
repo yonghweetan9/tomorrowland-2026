@@ -124,6 +124,10 @@ export default function MapTab({ me, members, showToast }) {
       { enableHighAccuracy: true, maximumAge: 0, timeout: 12000 }
     )
   }
+  // recenter on the festival grounds (De Schorre, Boom)
+  function recenterFestival() {
+    if (mapRef.current) mapRef.current.setView([FESTIVAL.lat, FESTIVAL.lng], 15)
+  }
 
   // write my position
   async function pushPosition(pos, force) {
@@ -224,7 +228,14 @@ export default function MapTab({ me, members, showToast }) {
 
       <div className="map-card">
         <div ref={mapEl} className="map" />
-        <button className="recenter-btn" onClick={recenterMe} title="Center on my location" aria-label="Center on my location">◎</button>
+        <div className="map-ctrls">
+          <button className="map-ctrl gofest" onClick={recenterFestival} title="Center on De Schorre, Boom" aria-label="Center on the festival">
+            <span className="mc-ico">✦</span><span className="mc-lbl">Festival</span>
+          </button>
+          <button className="map-ctrl me" onClick={recenterMe} title="Center on my location" aria-label="Center on my location">
+            <span className="mc-ico">◎</span><span className="mc-lbl">Me</span>
+          </button>
+        </div>
       </div>
 
       <div className="crew-strip">
@@ -271,10 +282,16 @@ export default function MapTab({ me, members, showToast }) {
       <style>{`
         .map-card{position:relative;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);
           box-shadow:0 10px 50px rgba(0,0,0,.5)}
-        .recenter-btn{position:absolute;right:12px;bottom:42px;z-index:1001;width:44px;height:44px;border-radius:50%;
-          background:rgba(13,8,32,.92);border:1px solid var(--line);color:var(--teal);font-size:1.35rem;line-height:1;
-          display:grid;place-items:center;box-shadow:0 4px 18px rgba(0,0,0,.55),var(--glow);backdrop-filter:blur(6px)}
-        .recenter-btn:active{transform:scale(.92)}
+        .map-ctrls{position:absolute;right:12px;bottom:42px;z-index:1001;display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+        .map-ctrl{display:flex;align-items:center;gap:7px;height:42px;padding:0 14px;border-radius:21px;
+          background:rgba(13,8,32,.92);border:1px solid var(--line);color:#fff;font-weight:700;font-size:.82rem;line-height:1;
+          box-shadow:0 4px 18px rgba(0,0,0,.55);backdrop-filter:blur(6px);cursor:pointer;white-space:nowrap}
+        .map-ctrl:active{transform:scale(.94)}
+        .map-ctrl .mc-ico{font-size:1.2rem;line-height:1}
+        .map-ctrl.gofest{border-color:rgba(255,200,90,.5)}
+        .map-ctrl.gofest .mc-ico{color:var(--gold);filter:drop-shadow(0 0 6px var(--gold))}
+        .map-ctrl.me{border-color:rgba(57,230,208,.45)}
+        .map-ctrl.me .mc-ico{color:var(--teal)}
         .map{height:calc(100dvh - 312px);min-height:240px;background:#0b0a16}
         .leaflet-container{background:#0b0a16}
         .map-foot{display:flex;align-items:center;justify-content:space-between;gap:10px;
