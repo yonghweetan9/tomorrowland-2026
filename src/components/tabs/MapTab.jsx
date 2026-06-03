@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import L from 'leaflet'
 import { supabase } from '../../supabaseClient'
 import { FESTIVAL } from '../../lib/festival'
@@ -353,7 +354,7 @@ function ManageCrew({ me, members, locations, onClose, showToast }) {
     setConfirm(null)
   }
 
-  return (
+  return createPortal(
     <div className="sheet-bg" onClick={onClose}>
       <div className="sheet crew-sheet" onClick={e => e.stopPropagation()}>
         <button className="sheet-x" onClick={onClose} aria-label="Close">✕</button>
@@ -418,6 +419,7 @@ function ManageCrew({ me, members, locations, onClose, showToast }) {
           .confirm-inline{margin-top:12px;background:rgba(7,4,17,.5);border:1px solid var(--line);border-radius:12px;padding:12px}
         `}</style>
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
