@@ -2,7 +2,7 @@
 
 All times are local (Belgium, CEST). Sets listed per stage in start-time order; times after midnight (e.g. 00:00, 00:55) are the closing hours of that festival day.
 
-## Friday 24 July 2026  (141 sets)
+## Friday 24 July 2026  (140 sets)
 
 ### ATMOSPHERE
 
@@ -86,7 +86,6 @@ All times are local (Belgium, CEST). Sets listed per stage in start-time order; 
 | 22:00–23:00 | Dany Neville |
 | 23:00–00:00 | Irwan |
 | 00:00–01:00 | Cham b2b Uneak |
-| 00:00–01:00 | Hide N Seek |
 
 ### FREEDOM BY BUD
 
@@ -220,7 +219,7 @@ All times are local (Belgium, CEST). Sets listed per stage in start-time order; 
 | 23:00–00:00 | Borgore |
 | 00:00–01:00 | Sullivan King |
 
-## Saturday 25 July 2026  (132 sets)
+## Saturday 25 July 2026  (133 sets)
 
 ### ATMOSPHERE
 
@@ -316,6 +315,7 @@ All times are local (Belgium, CEST). Sets listed per stage in start-time order; 
 | 18:00–19:00 | Symphony Of Unity |
 | 19:00–20:00 | Massano |
 | 20:00–21:00 | Argy presents NEWORLD |
+| 21:00–22:00 | Symphony Of Unity |
 | 22:00–23:00 | Sebastian Ingrosso |
 | 23:00–00:30 | Timmy Trumpet |
 
@@ -429,7 +429,7 @@ All times are local (Belgium, CEST). Sets listed per stage in start-time order; 
 | 21:30–23:00 | BountyHunter |
 | 23:00–01:00 | Cherry Moon Legends (& Friends) |
 
-## Sunday 26 July 2026  (129 sets)
+## Sunday 26 July 2026  (128 sets)
 
 ### ATMOSPHERE
 
@@ -578,7 +578,6 @@ All times are local (Belgium, CEST). Sets listed per stage in start-time order; 
 | 12:00–13:00 | Olivex |
 | 13:00–15:00 | Okayval |
 | 15:00–16:00 | ANAYA |
-| 16:00–17:00 | More to be announced |
 | 16:00–17:00 | Vassy |
 | 17:00–18:00 | Yves V b2b StadiumX |
 | 18:00–19:00 | Sick individuals |
@@ -635,4 +634,4 @@ All times are local (Belgium, CEST). Sets listed per stage in start-time order; 
 | 21:30–22:15 | Warface |
 | 22:15–23:00 | The Straikerz |
 
-_Total: 402 sets across 3 days._
+_Total: 401 sets across 3 days._
