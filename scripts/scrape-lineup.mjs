@@ -111,12 +111,21 @@ async function main() {
     r.artist_name.toLowerCase() === 'more to be announced' &&
     r.start_time && occupied.has(`${r.day}|${r.stage_name}|${r.start_time}`)))
 
-  deduped.sort((a, b) => a.day.localeCompare(b.day) || a.stage_name.localeCompare(b.stage_name) || a.artist_name.localeCompare(b.artist_name))
+  // Confirmed-stale parallel listings: two real acts share one stage+slot in the
+  // CDN, but the official grid shows only one. We drop the one(s) NOT shown.
+  // (Verified against belgium.tomorrowland.com.)
+  const STALE = [
+    { stage_name: 'ELIXIR', artist_name: 'Hide N Seek' }, // Fri 00:00 — official shows Cham b2b Uneak
+  ]
+  const cleaned = deduped.filter(r => !STALE.some(s =>
+    s.stage_name === r.stage_name && s.artist_name === r.artist_name))
 
-  const byDay = deduped.reduce((o, r) => ((o[r.day] = (o[r.day] || 0) + 1), o), {})
-  console.log(`→ ${deduped.length} unique W2 rows:`, byDay)
+  cleaned.sort((a, b) => a.day.localeCompare(b.day) || a.stage_name.localeCompare(b.stage_name) || a.artist_name.localeCompare(b.artist_name))
 
-  const out = JSON.stringify(deduped, null, 1)
+  const byDay = cleaned.reduce((o, r) => ((o[r.day] = (o[r.day] || 0) + 1), o), {})
+  console.log(`→ ${cleaned.length} unique W2 rows:`, byDay)
+
+  const out = JSON.stringify(cleaned, null, 1)
   writeFileSync(join(ROOT, 'scripts', 'lineup_seed.json'), out)
   writeFileSync(join(ROOT, 'public', 'lineup_seed.json'), out)
   console.log('✓ Wrote scripts/lineup_seed.json and public/lineup_seed.json')
