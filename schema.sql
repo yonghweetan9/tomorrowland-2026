@@ -26,8 +26,10 @@ create table if not exists public.lineup (
   end_time        timestamptz,                   -- nullable
   genre           text,
   last_scraped_at timestamptz not null default now(),
-  -- prevents duplicate rows on re-sync; the seed/scrape upserts on this key
-  unique (day, artist_name, stage_name)
+  -- prevents duplicate rows on re-sync; the seed/scrape upserts on this key.
+  -- start_time is included so an artist can have two sets on the same stage/day
+  -- (e.g. Symphony Of Unity twice at Freedom by Bud).
+  unique (day, artist_name, stage_name, start_time)
 );
 
 -- ── itinerary_items (shared, group-editable) ─────────────────────────

@@ -94,7 +94,9 @@ async function main() {
     // Group by festival day, not the raw calendar date of the start time.
     const day = festivalDayFor(p?.date, start_time)
     if (!W2_DAYS.has(day)) continue
-    const key = `${day}|${artist_name}|${stage_name}`
+    // Include start_time so a back-to-back / double set by the same artist on the
+    // same stage (e.g. Symphony Of Unity twice at Freedom) isn't collapsed.
+    const key = `${day}|${artist_name}|${stage_name}|${start_time ?? ''}`
     if (seen.has(key)) continue
     seen.add(key)
     rows.push({ day, artist_name, stage_name, start_time, end_time, genre: null })

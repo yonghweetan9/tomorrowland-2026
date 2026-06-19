@@ -1617,6 +1617,14 @@
  },
  {
   "day": "2026-07-25",
+  "artist_name": "Symphony Of Unity",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-25 21:00:00+02:00",
+  "end_time": "2026-07-25 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
   "artist_name": "Timmy Trumpet",
   "stage_name": "FREEDOM BY BUD",
   "start_time": "2026-07-25 23:00:00+02:00",

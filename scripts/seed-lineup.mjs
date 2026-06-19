@@ -1,7 +1,7 @@
 // ════════════════════════════════════════════════════════════════════
 //  seed-lineup.mjs
 //  Upserts scripts/lineup_seed.json into the Supabase `lineup` table.
-//  Idempotent: upserts on (day, artist_name, stage_name) so re-running
+//  Idempotent: upserts on (day, artist_name, stage_name, start_time) so re-running
 //  never creates duplicates. Run this whenever you re-scrape, or when
 //  Yong Hwee feeds in updated data (e.g. once set times are published).
 //
@@ -41,8 +41,11 @@ if (!URL || !KEY) {
 const supabase = createClient(URL, KEY, { auth: { persistSession: false } })
 
 async function main() {
+  // One timestamp for the whole run; every current row gets it, so anything
+  // older is a leftover from a previous seed and can be pruned afterwards.
+  const runStamp = new Date().toISOString()
   const rows = JSON.parse(readFileSync(join(ROOT, 'scripts', 'lineup_seed.json'), 'utf8'))
-    .map(r => ({ ...r, last_scraped_at: new Date().toISOString() }))
+    .map(r => ({ ...r, last_scraped_at: runStamp }))
   console.log(`→ Upserting ${rows.length} lineup rows…`)
 
   // batch to stay well under payload limits
@@ -51,10 +54,20 @@ async function main() {
     const batch = rows.slice(i, i + CHUNK)
     const { error } = await supabase
       .from('lineup')
-      .upsert(batch, { onConflict: 'day,artist_name,stage_name' })
+      .upsert(batch, { onConflict: 'day,artist_name,stage_name,start_time' })
     if (error) { console.error('✗ Upsert error:', error.message); process.exit(1) }
     console.log(`  ✓ ${Math.min(i + CHUNK, rows.length)}/${rows.length}`)
   }
+
+  // Prune rows left over from earlier runs (day regrouping, dropped placeholders,
+  // changed set times) so the table exactly mirrors lineup_seed.json.
+  const { error: delErr, count: delCount } = await supabase
+    .from('lineup')
+    .delete({ count: 'exact' })
+    .lt('last_scraped_at', runStamp)
+  if (delErr) { console.error('✗ Cleanup error:', delErr.message); process.exit(1) }
+  if (delCount) console.log(`  ✓ pruned ${delCount} stale row(s)`)
+
   const { count } = await supabase.from('lineup').select('*', { count: 'exact', head: true })
   console.log(`✓ Done. lineup table now has ${count} rows.`)
 }
