@@ -1,2850 +1,3234 @@
 [
  {
-  "day": "2026-07-26",
-  "artist_name": "DJ F.R.A.N.K",
-  "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Pat Krimson",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Lady S",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Romy Janssen",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Calao",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
   "day": "2026-07-24",
-  "artist_name": "Bisoux b2b Jef Nice",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "LICIA",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Goddard",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "ELFIGO",
-  "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Reygel",
-  "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Yves V",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Butterfly Effect",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Lucky Luke",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Shawiya Tribe",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Regi",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Olivex",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "ANAYA",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Leesa",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Simon B",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Laura Hoogland",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "D.O.D",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Sullivan King",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Jessica Audiffred",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "The Rocketman",
-  "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "TIGERLILY",
-  "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Okayval",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "EME",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Kriss Reeve",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Muze",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Mr. Rewind",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "D. Guaetta b2b Neon",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Hyalyte",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Mosimann",
-  "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Carly Wilford",
-  "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Roddy Lima",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "John Summit",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Bingo Players with Iceman",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Justin Wilkes",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Jorn Pricez",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Flowchief",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "⁠⁠SHOARMA SOUNDSYSTEM",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Mosimann b2b ELFIGO",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Illenium",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Lou8",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Xijaro & Pitch",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Mr. Joy",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Mairee",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "ALLEYCVT",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Borgore",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "JOA",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Benny Plays",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "NOA",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "MC STRETCH",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "MC STRETCH",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "MC STRETCH",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Eimco",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Villain",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Sandersville",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Annabel Stop It",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Nina Black",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Quincy",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Danny Corten",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Maite Dedecker",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Dimitri Cooman",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "DJ Ghost",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Franky Kloeck",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Jamie Dill",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Youri Parker",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "BountyHunter",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Cherry Moon Legends (& Friends)",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Andromedik",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Symphony Of Unity",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Massano",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Argy",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Sebastian Ingrosso",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Timmy Trumpet",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Alan Alvarez & CRAZY SIR-G",
-  "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Martin Trevy",
-  "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Prosit",
-  "stage_name": "MOOSE BAR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Jo Cox",
-  "stage_name": "MOOSE BAR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "The Bobmeister",
-  "stage_name": "MOOSE BAR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Meaghan",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "NOME.",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "5NAPBACK",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Merow",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "B Jones",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "MANDY",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Omdat Het Kan & Average Rob",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "HALŌ",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Kaskade",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Alan Walker",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Deco",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Capoon",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Malive",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Joezi",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Kitty Amor b2b Curol",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Shimza",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Hugel",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Mahmut Orhan",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Ely Oaks",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Miss Monique",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Indira Paganotto",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Nicky Romero",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Kölsch",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Alok",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Steve Angello",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Hardwell",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Fais Le Beau b2b Sixsixsixties",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Kamma",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Bibi Seck b2b Faisal",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Ogazón",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Bullet Tooth",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Mall Grab",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Oscar and the Wolf",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Skeletor Yogi",
+  "artist_name": "Azyr",
   "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 21:30:00+02:00",
+  "end_time": "2026-07-24 23:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
   "artist_name": "BOY&GIRL",
   "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 14:00:00+02:00",
+  "end_time": "2026-07-24 15:30:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Mha Iri",
+  "artist_name": "Byorn",
   "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 19:30:00+02:00",
+  "end_time": "2026-07-24 20:30:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
   "artist_name": "Callush",
   "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 17:00:00+02:00",
+  "end_time": "2026-07-24 18:30:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
   "artist_name": "Dyen b2b Maddix",
   "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 20:30:00+02:00",
+  "end_time": "2026-07-24 21:30:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Azyr",
+  "artist_name": "Hannah Laing",
   "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Onlynumbers",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 18:30:00+02:00",
+  "end_time": "2026-07-24 19:30:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
   "artist_name": "Holy Priest",
   "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-25 00:00:00+02:00",
+  "end_time": "2026-07-25 00:55:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Gissa",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "Mha Iri",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-24 15:30:00+02:00",
+  "end_time": "2026-07-24 17:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Saar Kuus",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "Onlynumbers",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-24 23:00:00+02:00",
+  "end_time": "2026-07-25 00:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "AAT",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Ruze b2b Ranger Trucco",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Belters Only",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Mr. Belt & Wezol",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "SPIES",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Joulie",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Planet Groove DJ's",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "John Noseda",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Jeroen Delodder",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Domi Re",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Locus",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Vitor Falabella",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Beat Controllers",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Firaga",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Somnia",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Phaxe",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Blazy",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Blastoyz",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Avalon",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Vegas",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Electric Universe",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "Skeletor Yogi",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-24 12:00:00+02:00",
+  "end_time": "2026-07-24 14:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
   "artist_name": "BAZZY",
   "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "TOXIC TWINS",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "IMHAPPY",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 12:00:00+02:00",
+  "end_time": "2026-07-24 13:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
   "artist_name": "DJ FURAX",
   "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "NATTE VISSTICK",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "TODIEFOR",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "YOSHIKO",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 17:00:00+02:00",
+  "end_time": "2026-07-24 18:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
   "artist_name": "DRS b2b SANDY WAREZ",
   "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 19:00:00+02:00",
+  "end_time": "2026-07-24 20:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "PARTYRAISER b2b BULLETPROOF",
+  "artist_name": "IMHAPPY",
   "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "TERRORCLOWN",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 15:00:00+02:00",
+  "end_time": "2026-07-24 16:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
   "artist_name": "LEKKERFACES",
   "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 20:00:00+02:00",
+  "end_time": "2026-07-24 21:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Rosh",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "NATTE VISSTICK",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-24 16:00:00+02:00",
+  "end_time": "2026-07-24 17:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Brooke Bailey b2b Taliyah Ayana",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "PARTYRAISER b2b BULLETPROOF",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-24 18:00:00+02:00",
+  "end_time": "2026-07-24 19:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Valentino Ignoto",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "TERRORCLOWN",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-24 22:00:00+02:00",
+  "end_time": "2026-07-24 23:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Iris Rooth",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "TODIEFOR",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-24 14:00:00+02:00",
+  "end_time": "2026-07-24 15:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Miro",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "TOXIC TWINS",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-24 13:00:00+02:00",
+  "end_time": "2026-07-24 14:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Nems",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "YOSHIKO",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-24 21:00:00+02:00",
+  "end_time": "2026-07-24 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "AAT",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-24 15:00:00+02:00",
+  "end_time": "2026-07-24 16:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Belters Only",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-24 16:30:00+02:00",
+  "end_time": "2026-07-24 18:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Gissa",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-24 12:00:00+02:00",
+  "end_time": "2026-07-24 13:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "More to be announced",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-24 20:00:00+02:00",
+  "end_time": "2026-07-24 21:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Mr. Belt & Wezol",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-24 20:00:00+02:00",
+  "end_time": "2026-07-24 21:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Ruze b2b Ranger Trucco",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-24 18:30:00+02:00",
+  "end_time": "2026-07-24 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Saar Kuus",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-24 13:30:00+02:00",
+  "end_time": "2026-07-24 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Bibi Seck b2b Faisal",
+  "stage_name": "CORE",
+  "start_time": "2026-07-24 17:00:00+02:00",
+  "end_time": "2026-07-24 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Bullet Tooth",
+  "stage_name": "CORE",
+  "start_time": "2026-07-24 20:30:00+02:00",
+  "end_time": "2026-07-24 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Fais Le Beau b2b Sixsixsixties",
+  "stage_name": "CORE",
+  "start_time": "2026-07-24 12:00:00+02:00",
+  "end_time": "2026-07-24 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Kamma",
+  "stage_name": "CORE",
+  "start_time": "2026-07-24 15:00:00+02:00",
+  "end_time": "2026-07-24 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Mall Grab",
+  "stage_name": "CORE",
+  "start_time": "2026-07-24 22:00:00+02:00",
+  "end_time": "2026-07-24 23:45:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Ogazón",
+  "stage_name": "CORE",
+  "start_time": "2026-07-24 19:00:00+02:00",
+  "end_time": "2026-07-24 20:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Oscar and the Wolf",
+  "stage_name": "CORE",
+  "start_time": "2026-07-24 23:45:00+02:00",
+  "end_time": "2026-07-25 00:50:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Capoon",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-24 13:30:00+02:00",
+  "end_time": "2026-07-24 15:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Deco",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-24 12:00:00+02:00",
+  "end_time": "2026-07-24 13:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Hugel",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-24 21:30:00+02:00",
+  "end_time": "2026-07-24 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Joezi",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-24 17:00:00+02:00",
+  "end_time": "2026-07-24 18:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Kitty Amor b2b Curol",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-24 18:30:00+02:00",
+  "end_time": "2026-07-24 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Mahmut Orhan",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-24 23:00:00+02:00",
+  "end_time": "2026-07-25 00:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Malive",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-24 15:30:00+02:00",
+  "end_time": "2026-07-24 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Shimza",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-24 20:00:00+02:00",
+  "end_time": "2026-07-24 21:30:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
   "artist_name": "$hirak",
   "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 20:00:00+02:00",
+  "end_time": "2026-07-24 21:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Flash",
+  "artist_name": "Brooke Bailey b2b Taliyah Ayana",
   "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Dany Neville",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Irwan",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 14:30:00+02:00",
+  "end_time": "2026-07-24 16:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
   "artist_name": "Cham b2b Uneak",
   "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-25 00:00:00+02:00",
+  "end_time": "2026-07-25 01:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Ghengar",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "Dany Neville",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-24 22:00:00+02:00",
+  "end_time": "2026-07-24 23:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Basstripper",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "Flash",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-24 21:00:00+02:00",
+  "end_time": "2026-07-24 22:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Riot Ten",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "Hide N Seek",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-25 00:00:00+02:00",
+  "end_time": "2026-07-25 01:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "BOU + B LIVE 247",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "Iris Rooth",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-24 17:00:00+02:00",
+  "end_time": "2026-07-24 18:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
-  "artist_name": "Esin Boz",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
+  "artist_name": "Irwan",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-24 23:00:00+02:00",
+  "end_time": "2026-07-25 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Miro",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-24 18:00:00+02:00",
+  "end_time": "2026-07-24 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Nems",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-24 19:00:00+02:00",
+  "end_time": "2026-07-24 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Rosh",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-24 13:00:00+02:00",
+  "end_time": "2026-07-24 14:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Valentino Ignoto",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-24 16:00:00+02:00",
+  "end_time": "2026-07-24 17:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
   "artist_name": "Aaron Hibell",
   "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Amber Broos b2b Juliet Fox",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "James Hype",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-24",
-  "artist_name": "Fisher",
-  "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 15:00:00+02:00",
+  "end_time": "2026-07-24 16:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
   "artist_name": "Alesso",
   "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 23:00:00+02:00",
+  "end_time": "2026-07-25 00:30:01+02:00",
   "genre": null
  },
  {
-  "day": "2026-07-26",
-  "artist_name": "Kaaze",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Roma",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Netherworld",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "MATTN",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "DJ ART",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "RUBY XX",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Knox Kind",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Stanne",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Mondello",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Niotech",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Uberjak'd feat Ella Young",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Mero b2b Daire",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "IOSIO",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "X&Trick",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Macon",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Rune Evens",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Colyn b2b Sainte Vie",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Yulia Niko",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Dyzen",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Yet More",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Alicia Hahn",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Tim Bliss",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "NA:TUS",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Sam Girling",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Séa",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Geheimzinnig Soundsystem",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Larry Masmero",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Soulastico b2b Tohma",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Emilia De La Paz",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Mooris",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Dannic b2b Dyro",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Gregor Salto",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Sander van doorn",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Chocolate Puma",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Dada Life",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Swanky Tunes",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "LNY TNZ: Jump Never Dies (Take-Over)",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Odssey",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Yamo",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "I Hate Models",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Novah",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Pegassi",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "EMILIJA b2b Fenrick",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Noise Mafia",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "2hot2play",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Kneiz",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "HAAi b2b The Blessed Madonna",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Dino Lenny b2b Radioslave",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Calvin Harris",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Dimitri Vegas & Like Mike",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Armin van Buuren",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Sub Zero Project",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Agents of Time",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Morten",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Mike Williams",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Angemi",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Max Styler",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "GUZ",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Naomi Cazier",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Netsky",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Gorgon City",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Lost Frequencies",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Sonny Fodera",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Wilkinson",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Chris Lorenzo",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Henri PFR",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "ZHU",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Mesto",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "me n ü",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Radio Cargo",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Kurt Verheyen",
-  "stage_name": "MOOSE BAR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Mr E.",
-  "stage_name": "MOOSE BAR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Mobius One",
-  "stage_name": "MOOSE BAR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Amelie Lens presents Aura",
+  "day": "2026-07-24",
+  "artist_name": "Amber Broos b2b Juliet Fox",
   "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 16:00:00+02:00",
+  "end_time": "2026-07-24 17:30:01+02:00",
   "genre": null
  },
  {
-  "day": "2026-07-26",
-  "artist_name": "Artbat",
+  "day": "2026-07-24",
+  "artist_name": "Bebe Rexha",
   "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 20:00:00+02:00",
+  "end_time": "2026-07-24 20:30:01+02:00",
   "genre": null
  },
  {
-  "day": "2026-07-26",
-  "artist_name": "Fideles",
+  "day": "2026-07-24",
+  "artist_name": "Enrico Sangiuliano",
   "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 17:30:00+02:00",
+  "end_time": "2026-07-24 19:00:01+02:00",
   "genre": null
  },
  {
-  "day": "2026-07-26",
-  "artist_name": "Korolova",
+  "day": "2026-07-24",
+  "artist_name": "Esin Boz",
   "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 12:00:00+02:00",
+  "end_time": "2026-07-24 13:30:01+02:00",
   "genre": null
  },
  {
-  "day": "2026-07-26",
-  "artist_name": "Push only",
+  "day": "2026-07-24",
+  "artist_name": "Fisher",
   "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 21:30:00+02:00",
+  "end_time": "2026-07-24 23:00:01+02:00",
   "genre": null
  },
  {
-  "day": "2026-07-26",
-  "artist_name": "Axel Haube",
+  "day": "2026-07-24",
+  "artist_name": "James Hype",
   "stage_name": "FREEDOM BY BUD",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 20:30:00+02:00",
+  "end_time": "2026-07-24 21:30:01+02:00",
   "genre": null
  },
  {
-  "day": "2026-07-26",
-  "artist_name": "The Straikerz",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
+  "day": "2026-07-24",
+  "artist_name": "JOA",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-24 13:30:00+02:00",
+  "end_time": "2026-07-24 15:00:01+02:00",
   "genre": null
  },
  {
-  "day": "2026-07-26",
-  "artist_name": "Warface",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
+  "day": "2026-07-24",
+  "artist_name": "John Newman (Live band)",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-24 19:00:00+02:00",
+  "end_time": "2026-07-24 20:00:01+02:00",
   "genre": null
  },
  {
-  "day": "2026-07-26",
-  "artist_name": "Da Tweekaz",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Coone",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Sound Rush",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "The Purge",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Hard Driver",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Mark With A K & MC Chucky",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "D-Charged b2b Serzo",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Lost Identity",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "BassBrain",
-  "stage_name": "THE ROSE GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Michael Amani & Friends",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Michael Amani",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Jaël Ost & MagiK",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Kav Verhouzer & de Hofnar presents: Eurodance",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Karakals",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Lennert Wolfs",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Reeze",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Dino",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Freddy K",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Vikkstar",
-  "stage_name": "ELIXIR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Blasha & Allatt",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Quelza",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Amotik",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Netty Hugo",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Amalie",
-  "stage_name": "CAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Chuckie",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Quintino",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Superheroes",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Laidback Luke",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Deorro",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Sick individuals",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Yves V b2b StadiumX",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Thomas Gold",
-  "stage_name": "PLANAXIS",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Eli Rojas",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Delafino & Luna Fino",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Oriol Calvo",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Alex Kennon",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Valentín Huedo",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Rayco Santos",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Cristiano Da Silva",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Bobbi Antonni",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Dominico",
-  "stage_name": "MELODIA BY CORONA",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "HU",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Nico Moreno",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Morgan Seatree",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Bella Claxton b2b Paige Tomlinson",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Kyle Starkey",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Newtone",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Lisa Korver",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Mendosa",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Trym",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Kobosil",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Nikolina",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Adrián Mills",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Alycia Bezgo b2b Biianco",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Portex",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Riana Holley",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Mirage",
-  "stage_name": "ATMOSPHERE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Malugi",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Lammer",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Helena Lauwaert",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Saidah",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Kellar",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Catalina",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Martin Garrix",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Steve Aoki",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Benwal b2b Labat",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Lost Frequencies",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "SHEE",
-  "stage_name": "CORE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Afrojack b2b R3hab",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Sara Landry",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Chase & Status (DJ set)",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Lucas & Steve",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Cyril",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Odd Mob",
-  "stage_name": "MAINSTAGE",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Kevin de Vries b2b Meduza",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Mind Against",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Like Mike",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Brina Knauss",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Bhaskar",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Franc Fala b2b Benja",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Brennan Heart",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "LP Giobbi",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "Ayybo b2b Odd Mob",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Bassjackers",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-25",
-  "artist_name": "HI-LO b2b Layton Giordani",
-  "stage_name": "CRYSTAL GARDEN",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Bassjackers",
+  "day": "2026-07-24",
+  "artist_name": "Alan Alvarez & CRAZY SIR-G",
   "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 14:00:00+02:00",
+  "end_time": "2026-07-24 15:00:01+02:00",
   "genre": null
  },
  {
-  "day": "2026-07-26",
-  "artist_name": "NERVO",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Darren Styles",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Diego Miranda b2b Jerry Davila",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Lucca van Damme",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Jan V",
-  "stage_name": "MOOSE BAR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Paris Hilton",
-  "stage_name": "THE GREAT LIBRARY",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Brian",
-  "stage_name": "MOOSE BAR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "Mr E.",
-  "stage_name": "MOOSE BAR",
-  "start_time": null,
-  "end_time": null,
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "The Criminal Sounds",
+  "day": "2026-07-24",
+  "artist_name": "Didi Han",
   "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 20:00:00+02:00",
+  "end_time": "2026-07-24 21:00:01+02:00",
   "genre": null
  },
  {
-  "day": "2026-07-26",
-  "artist_name": "DJ Lex",
+  "day": "2026-07-24",
+  "artist_name": "ELFIGO",
   "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 18:00:00+02:00",
+  "end_time": "2026-07-24 19:00:01+02:00",
   "genre": null
  },
  {
-  "day": "2026-07-25",
-  "artist_name": "Yaz.",
+  "day": "2026-07-24",
+  "artist_name": "Ely Oaks",
   "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 17:00:00+02:00",
+  "end_time": "2026-07-24 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Martin Trevy",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-24 15:00:00+02:00",
+  "end_time": "2026-07-24 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "MEGURU",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-24 21:00:00+02:00",
+  "end_time": "2026-07-24 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Reygel",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-24 13:00:00+02:00",
+  "end_time": "2026-07-24 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Telykast",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-24 19:00:00+02:00",
+  "end_time": "2026-07-24 20:00:01+02:00",
   "genre": null
  },
  {
   "day": "2026-07-24",
   "artist_name": "Vinne",
   "stage_name": "HOUSE OF FORTUNE BY JBL",
-  "start_time": null,
-  "end_time": null,
+  "start_time": "2026-07-24 16:00:00+02:00",
+  "end_time": "2026-07-24 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Alok",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-24 21:45:00+02:00",
+  "end_time": "2026-07-24 22:45:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "DISCOVERY",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-24 12:00:00+02:00",
+  "end_time": "2026-07-24 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Ely Oaks",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-24 15:30:00+02:00",
+  "end_time": "2026-07-24 16:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Hardwell",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-24 23:50:00+02:00",
+  "end_time": "2026-07-25 00:50:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Indira Paganotto",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-24 18:40:00+02:00",
+  "end_time": "2026-07-24 19:40:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Kölsch",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-24 20:40:00+02:00",
+  "end_time": "2026-07-24 21:40:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Miss Monique",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-24 17:35:00+02:00",
+  "end_time": "2026-07-24 18:35:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "More to be announced",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-24 14:00:00+02:00",
+  "end_time": "2026-07-24 15:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Nicky Romero",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-24 19:40:00+02:00",
+  "end_time": "2026-07-24 20:40:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Steve Angello",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-24 22:50:00+02:00",
+  "end_time": "2026-07-24 23:50:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Yves V",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-24 16:30:00+02:00",
+  "end_time": "2026-07-24 17:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Eko Roosevelt Live",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-24 19:15:00+02:00",
+  "end_time": "2026-07-24 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Jeroen Delodder",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-24 22:00:00+02:00",
+  "end_time": "2026-07-25 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "John Noseda",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-24 20:00:00+02:00",
+  "end_time": "2026-07-24 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Joulie",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-24 14:00:00+02:00",
+  "end_time": "2026-07-24 15:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "L-Fêtes",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-24 15:30:00+02:00",
+  "end_time": "2026-07-24 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Planet Groove DJ's",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-24 17:00:00+02:00",
+  "end_time": "2026-07-24 19:15:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "SPIES",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-24 12:00:00+02:00",
+  "end_time": "2026-07-24 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Jo Cox",
+  "stage_name": "MOOSE BAR",
+  "start_time": "2026-07-24 16:00:00+02:00",
+  "end_time": "2026-07-24 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Otto Wunderbar",
+  "stage_name": "MOOSE BAR",
+  "start_time": "2026-07-24 19:00:00+02:00",
+  "end_time": "2026-07-24 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Prosit",
+  "stage_name": "MOOSE BAR",
+  "start_time": "2026-07-24 12:00:00+02:00",
+  "end_time": "2026-07-24 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "The Bobmeister",
+  "stage_name": "MOOSE BAR",
+  "start_time": "2026-07-24 20:00:00+02:00",
+  "end_time": "2026-07-25 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Avalon",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-24 22:00:00+02:00",
+  "end_time": "2026-07-24 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Beat Controllers",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-24 14:00:00+02:00",
+  "end_time": "2026-07-24 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Blastoyz",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-24 20:00:00+02:00",
+  "end_time": "2026-07-24 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Blazy",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-24 19:00:00+02:00",
+  "end_time": "2026-07-24 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Domi Re",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-24 13:00:00+02:00",
+  "end_time": "2026-07-24 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Electric Universe",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-24 23:00:00+02:00",
+  "end_time": "2026-07-25 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Firaga",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-24 16:00:00+02:00",
+  "end_time": "2026-07-24 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Locus",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-24 12:00:00+02:00",
+  "end_time": "2026-07-24 13:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Phaxe",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-24 18:00:00+02:00",
+  "end_time": "2026-07-24 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Somnia",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-24 17:00:00+02:00",
+  "end_time": "2026-07-24 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Vegas",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-24 21:00:00+02:00",
+  "end_time": "2026-07-24 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Vitor Falabella",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-24 15:00:00+02:00",
+  "end_time": "2026-07-24 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "5NAPBACK",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-24 15:00:00+02:00",
+  "end_time": "2026-07-24 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Alan Walker",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-24 23:00:00+02:00",
+  "end_time": "2026-07-25 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "B Jones",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-24 17:00:00+02:00",
+  "end_time": "2026-07-24 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Calumny",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-24 12:00:00+02:00",
+  "end_time": "2026-07-24 13:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "HALŌ",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-24 21:00:00+02:00",
+  "end_time": "2026-07-24 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Illenium",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-25 00:00:00+02:00",
+  "end_time": "2026-07-25 00:55:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Kaskade",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-24 22:00:00+02:00",
+  "end_time": "2026-07-24 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "MANDY",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-24 19:00:00+02:00",
+  "end_time": "2026-07-24 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Meaghan",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-24 13:00:00+02:00",
+  "end_time": "2026-07-24 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Merow",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-24 16:00:00+02:00",
+  "end_time": "2026-07-24 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "NOME.",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-24 14:00:00+02:00",
+  "end_time": "2026-07-24 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Omdat Het Kan & Average Rob",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-24 20:00:00+02:00",
+  "end_time": "2026-07-24 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Regi",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-24 18:00:00+02:00",
+  "end_time": "2026-07-24 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Bisoux b2b Jef Nice",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-24 23:00:00+02:00",
+  "end_time": "2026-07-25 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Jared",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-24 18:30:00+02:00",
+  "end_time": "2026-07-24 19:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Leesa",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-24 14:30:00+02:00",
+  "end_time": "2026-07-24 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Lou8",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-24 17:30:00+02:00",
+  "end_time": "2026-07-24 18:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Mairee",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-24 22:00:00+02:00",
+  "end_time": "2026-07-24 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Mr. Joy",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-24 20:30:00+02:00",
+  "end_time": "2026-07-24 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Sanne Dammers",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-24 13:00:00+02:00",
+  "end_time": "2026-07-24 14:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "VIKTÖR b2b MZDZ",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-24 16:00:00+02:00",
+  "end_time": "2026-07-24 17:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Xijaro & Pitch",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-24 19:30:00+02:00",
+  "end_time": "2026-07-24 20:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "ALLEYCVT",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-24 18:00:00+02:00",
+  "end_time": "2026-07-24 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Basstripper",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-24 19:00:00+02:00",
+  "end_time": "2026-07-24 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Borgore",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-24 23:00:00+02:00",
+  "end_time": "2026-07-25 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "BOU + B LIVE 247",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-24 22:00:00+02:00",
+  "end_time": "2026-07-24 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Ghengar",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-24 17:00:00+02:00",
+  "end_time": "2026-07-24 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Goddard & Dread MC",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-24 16:00:00+02:00",
+  "end_time": "2026-07-24 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Jessica Audiffred",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-24 20:00:00+02:00",
+  "end_time": "2026-07-24 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "LICIA",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-24 13:30:00+02:00",
+  "end_time": "2026-07-24 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Lucky Luke",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-24 15:00:00+02:00",
+  "end_time": "2026-07-24 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Riot Ten",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-24 21:00:00+02:00",
+  "end_time": "2026-07-24 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Shawiya Tribe",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-24 12:00:00+02:00",
+  "end_time": "2026-07-24 13:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-24",
+  "artist_name": "Sullivan King",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-25 00:00:00+02:00",
+  "end_time": "2026-07-25 01:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "2hot2play",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-25 14:00:00+02:00",
+  "end_time": "2026-07-25 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Alt8",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-25 19:00:00+02:00",
+  "end_time": "2026-07-25 20:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "EMILIJA b2b Fenrick",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-25 17:30:00+02:00",
+  "end_time": "2026-07-25 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "I Hate Models",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-25 23:30:00+02:00",
+  "end_time": "2026-07-26 00:55:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Kneiz",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-25 12:00:00+02:00",
+  "end_time": "2026-07-25 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Noise Mafia",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-25 16:00:00+02:00",
+  "end_time": "2026-07-25 17:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Novah",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-25 22:00:00+02:00",
+  "end_time": "2026-07-25 23:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Pegassi",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-25 20:30:00+02:00",
+  "end_time": "2026-07-25 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Daire b2b Mero",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-25 17:30:00+02:00",
+  "end_time": "2026-07-25 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "IOSIO",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-25 16:15:00+02:00",
+  "end_time": "2026-07-25 17:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Macon",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-25 13:30:00+02:00",
+  "end_time": "2026-07-25 14:45:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Mondello",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-25 21:00:00+02:00",
+  "end_time": "2026-07-25 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Niotech",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-25 20:00:00+02:00",
+  "end_time": "2026-07-25 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Rune Evens",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-25 12:00:00+02:00",
+  "end_time": "2026-07-25 13:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Stanne",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-25 22:00:00+02:00",
+  "end_time": "2026-07-25 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Uberjak'd feat Ella Young",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-25 19:00:00+02:00",
+  "end_time": "2026-07-25 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "X&Trick",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-25 14:45:00+02:00",
+  "end_time": "2026-07-25 16:15:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Bingo Players with Iceman",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-25 17:00:00+02:00",
+  "end_time": "2026-07-25 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Chocolate Puma",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-25 19:00:00+02:00",
+  "end_time": "2026-07-25 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Dada Life",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-25 18:00:00+02:00",
+  "end_time": "2026-07-25 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Dannic b2b Dyro",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-25 22:00:00+02:00",
+  "end_time": "2026-07-25 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Gregor Salto",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-25 20:00:00+02:00",
+  "end_time": "2026-07-25 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "LNY TNZ: Jump Never Dies (Take-Over)",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-25 14:00:00+02:00",
+  "end_time": "2026-07-25 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Odssey",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-25 13:00:00+02:00",
+  "end_time": "2026-07-25 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Sander van doorn",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-25 21:00:00+02:00",
+  "end_time": "2026-07-25 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Swanky Tunes",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-25 16:00:00+02:00",
+  "end_time": "2026-07-25 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Yamo",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-25 12:00:00+02:00",
+  "end_time": "2026-07-25 13:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "DC Noises b2b Tori.Ann",
+  "stage_name": "CORE",
+  "start_time": "2026-07-25 12:00:00+02:00",
+  "end_time": "2026-07-25 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Dino Lenny b2b Radioslave",
+  "stage_name": "CORE",
+  "start_time": "2026-07-25 16:30:00+02:00",
+  "end_time": "2026-07-25 18:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "DJ Boring",
+  "stage_name": "CORE",
+  "start_time": "2026-07-25 18:30:00+02:00",
+  "end_time": "2026-07-25 20:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "HAAi b2b The Blessed Madonna",
+  "stage_name": "CORE",
+  "start_time": "2026-07-25 22:30:00+02:00",
+  "end_time": "2026-07-26 00:50:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "SHEE",
+  "stage_name": "CORE",
+  "start_time": "2026-07-25 15:00:00+02:00",
+  "end_time": "2026-07-25 16:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Skream b2b dj Seinfeld",
+  "stage_name": "CORE",
+  "start_time": "2026-07-25 20:30:00+02:00",
+  "end_time": "2026-07-25 22:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Ayybo b2b Odd Mob",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-25 18:00:00+02:00",
+  "end_time": "2026-07-25 19:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "GUZ",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-25 13:30:00+02:00",
+  "end_time": "2026-07-25 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "HI-LO b2b Layton Giordani",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-25 21:00:00+02:00",
+  "end_time": "2026-07-25 22:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "John Summit",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-25 22:30:00+02:00",
+  "end_time": "2026-07-26 00:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "LP Giobbi",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-25 16:30:00+02:00",
+  "end_time": "2026-07-25 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Max Styler",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-25 19:30:00+02:00",
+  "end_time": "2026-07-25 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Naomi Cazier",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-25 12:00:00+02:00",
+  "end_time": "2026-07-25 13:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Roddy Lima",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-25 15:00:00+02:00",
+  "end_time": "2026-07-25 16:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Annabel Stop It",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-25 21:00:00+02:00",
+  "end_time": "2026-07-25 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Butterfly Effect",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-25 15:00:00+02:00",
+  "end_time": "2026-07-25 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "DJ ART",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-25 16:00:00+02:00",
+  "end_time": "2026-07-25 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Eimco",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-25 17:00:00+02:00",
+  "end_time": "2026-07-25 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Knox Kind",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-25 13:00:00+02:00",
+  "end_time": "2026-07-25 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Lady S",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-25 19:00:00+02:00",
+  "end_time": "2026-07-25 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Nina Black",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-25 22:00:00+02:00",
+  "end_time": "2026-07-25 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "NOA",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-25 23:00:00+02:00",
+  "end_time": "2026-07-26 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "RUBY XX",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-25 14:00:00+02:00",
+  "end_time": "2026-07-25 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Sandersville",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-25 18:00:00+02:00",
+  "end_time": "2026-07-25 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "⁠⁠SHOARMA SOUNDSYSTEM",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-25 20:00:00+02:00",
+  "end_time": "2026-07-25 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Andromedik",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-25 17:00:00+02:00",
+  "end_time": "2026-07-25 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Argy presents NEWORLD",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-25 20:00:00+02:00",
+  "end_time": "2026-07-25 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Calao",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-25 13:30:00+02:00",
+  "end_time": "2026-07-25 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Massano",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-25 19:00:00+02:00",
+  "end_time": "2026-07-25 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Mosimann b2b ELFIGO",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-25 16:00:00+02:00",
+  "end_time": "2026-07-25 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Philou",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-25 15:00:00+02:00",
+  "end_time": "2026-07-25 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Romy Janssen",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-25 12:00:00+02:00",
+  "end_time": "2026-07-25 13:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Sebastian Ingrosso",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-25 22:00:00+02:00",
+  "end_time": "2026-07-25 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Symphony Of Unity",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-25 18:00:00+02:00",
+  "end_time": "2026-07-25 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Timmy Trumpet",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-25 23:00:00+02:00",
+  "end_time": "2026-07-26 00:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Atkö",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-25 21:00:00+02:00",
+  "end_time": "2026-07-25 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Carly Wilford",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-25 17:00:00+02:00",
+  "end_time": "2026-07-25 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Gaddi",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-25 14:30:00+02:00",
+  "end_time": "2026-07-25 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Likki",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-25 14:00:00+02:00",
+  "end_time": "2026-07-25 14:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "More to be announced",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-25 20:00:00+02:00",
+  "end_time": "2026-07-25 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Mosimann",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-25 18:00:00+02:00",
+  "end_time": "2026-07-25 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Nosefin",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-25 19:00:00+02:00",
+  "end_time": "2026-07-25 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Rassix",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-25 15:00:00+02:00",
+  "end_time": "2026-07-25 15:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "TOO BIASED",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-25 15:30:00+02:00",
+  "end_time": "2026-07-25 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Triciaa",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-25 13:00:00+02:00",
+  "end_time": "2026-07-25 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Yaz.",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-25 16:00:00+02:00",
+  "end_time": "2026-07-25 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Agents of Time",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-25 19:20:00+02:00",
+  "end_time": "2026-07-25 20:20:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Angemi",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-25 14:00:00+02:00",
+  "end_time": "2026-07-25 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Armin van Buuren",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-25 21:25:00+02:00",
+  "end_time": "2026-07-25 22:25:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Calvin Harris",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-25 23:45:00+02:00",
+  "end_time": "2026-07-26 00:45:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "D.O.D",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-25 16:15:00+02:00",
+  "end_time": "2026-07-25 17:15:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Dimitri Vegas & Like Mike",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-25 22:30:00+02:00",
+  "end_time": "2026-07-25 23:45:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "DISCOVERY",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-25 12:00:00+02:00",
+  "end_time": "2026-07-25 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "MATTN",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-25 17:20:00+02:00",
+  "end_time": "2026-07-25 18:20:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Mike Williams",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-25 15:00:00+02:00",
+  "end_time": "2026-07-25 16:15:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Morten",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-25 18:20:00+02:00",
+  "end_time": "2026-07-25 19:20:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Sub Zero Project",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-25 20:25:00+02:00",
+  "end_time": "2026-07-25 21:25:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Emilia De La Paz",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-25 14:00:00+02:00",
+  "end_time": "2026-07-25 15:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Geheimzinnig Soundsystem",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-25 19:00:00+02:00",
+  "end_time": "2026-07-25 20:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Larry Masmero",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-25 17:30:00+02:00",
+  "end_time": "2026-07-25 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Mooris",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-25 12:00:00+02:00",
+  "end_time": "2026-07-25 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Sam Girling",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-25 22:00:00+02:00",
+  "end_time": "2026-07-26 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Séa",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-25 20:30:00+02:00",
+  "end_time": "2026-07-25 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Soulastico b2b Tohma",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-25 15:30:00+02:00",
+  "end_time": "2026-07-25 17:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "De Romeo's",
+  "stage_name": "MOOSE BAR",
+  "start_time": "2026-07-25 19:00:00+02:00",
+  "end_time": "2026-07-25 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Kurt Verheyen",
+  "stage_name": "MOOSE BAR",
+  "start_time": "2026-07-25 20:00:00+02:00",
+  "end_time": "2026-07-26 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Mobius One",
+  "stage_name": "MOOSE BAR",
+  "start_time": "2026-07-25 12:00:00+02:00",
+  "end_time": "2026-07-25 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Mr. E",
+  "stage_name": "MOOSE BAR",
+  "start_time": "2026-07-25 15:00:00+02:00",
+  "end_time": "2026-07-25 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Alicia Hahn",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-25 15:00:00+02:00",
+  "end_time": "2026-07-25 16:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Chris Avantgarde b2b Konstantin Sibold",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-25 22:30:00+02:00",
+  "end_time": "2026-07-26 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Colyn b2b Sainte Vie",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-25 21:00:00+02:00",
+  "end_time": "2026-07-25 22:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Dyzen",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-25 18:00:00+02:00",
+  "end_time": "2026-07-25 19:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "NA:TUS",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-25 12:00:00+02:00",
+  "end_time": "2026-07-25 13:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Tim Bliss",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-25 13:30:00+02:00",
+  "end_time": "2026-07-25 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Yet More",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-25 16:30:00+02:00",
+  "end_time": "2026-07-25 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Yulia Niko",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-25 19:30:00+02:00",
+  "end_time": "2026-07-25 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Chris Lorenzo",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-25 18:00:00+02:00",
+  "end_time": "2026-07-25 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Gorgon City",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-25 22:45:00+02:00",
+  "end_time": "2026-07-26 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Henri PFR",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-25 17:00:00+02:00",
+  "end_time": "2026-07-25 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Lost Frequencies",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-25 21:30:00+02:00",
+  "end_time": "2026-07-25 22:45:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "me n ü",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-25 14:00:00+02:00",
+  "end_time": "2026-07-25 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Mesto",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-25 15:00:00+02:00",
+  "end_time": "2026-07-25 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Netsky",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-26 00:00:00+02:00",
+  "end_time": "2026-07-26 00:55:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Radio Cargo",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-25 13:00:00+02:00",
+  "end_time": "2026-07-25 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Sonny Fodera",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-25 20:00:00+02:00",
+  "end_time": "2026-07-25 21:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Wilkinson",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-25 19:00:00+02:00",
+  "end_time": "2026-07-25 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "ZHU",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-25 16:00:00+02:00",
+  "end_time": "2026-07-25 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Ben Malone",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-25 19:00:00+02:00",
+  "end_time": "2026-07-25 20:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Charleen Herzig",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-25 13:00:00+02:00",
+  "end_time": "2026-07-25 14:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Flowchief",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-25 22:00:00+02:00",
+  "end_time": "2026-07-25 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Jorn Pricez",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-25 20:30:00+02:00",
+  "end_time": "2026-07-25 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "More to be announced",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-25 13:00:00+02:00",
+  "end_time": "2026-07-25 14:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Netherworld",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-25 23:00:00+02:00",
+  "end_time": "2026-07-26 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Pat Krimson",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-25 16:00:00+02:00",
+  "end_time": "2026-07-25 17:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Roma",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-25 17:30:00+02:00",
+  "end_time": "2026-07-25 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Simon B",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-25 14:30:00+02:00",
+  "end_time": "2026-07-25 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "BountyHunter",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-25 21:30:00+02:00",
+  "end_time": "2026-07-25 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Cherry Moon Legends (& Friends)",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-25 23:00:00+02:00",
+  "end_time": "2026-07-26 01:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Danny Corten",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-25 13:30:00+02:00",
+  "end_time": "2026-07-25 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Dimitri Cooman",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-25 16:30:00+02:00",
+  "end_time": "2026-07-25 17:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "DJ Ghost",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-25 17:30:00+02:00",
+  "end_time": "2026-07-25 18:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Franky Kloeck",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-25 18:30:00+02:00",
+  "end_time": "2026-07-25 19:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Jamie Dill",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-25 19:30:00+02:00",
+  "end_time": "2026-07-25 20:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Maite Dedecker",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-25 15:00:00+02:00",
+  "end_time": "2026-07-25 16:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Quincy",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-25 12:00:00+02:00",
+  "end_time": "2026-07-25 13:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-25",
+  "artist_name": "Youri Parker",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-25 20:30:00+02:00",
+  "end_time": "2026-07-25 21:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Adrián Mills",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-26 18:00:00+02:00",
+  "end_time": "2026-07-26 19:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Alycia Bezgo b2b Biianco",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-26 16:30:00+02:00",
+  "end_time": "2026-07-26 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Kobosil",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-26 22:30:00+02:00",
+  "end_time": "2026-07-26 23:55:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Mirage",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-26 12:00:00+02:00",
+  "end_time": "2026-07-26 13:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Nikolina",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-26 19:30:00+02:00",
+  "end_time": "2026-07-26 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Portex",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-26 15:00:00+02:00",
+  "end_time": "2026-07-26 16:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Riana Holley",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-26 13:30:00+02:00",
+  "end_time": "2026-07-26 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Trym",
+  "stage_name": "ATMOSPHERE",
+  "start_time": "2026-07-26 21:00:00+02:00",
+  "end_time": "2026-07-26 22:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Amalie",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-26 12:00:00+02:00",
+  "end_time": "2026-07-26 13:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Amotik",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-26 15:00:00+02:00",
+  "end_time": "2026-07-26 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Blasha & Allatt",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-26 19:00:00+02:00",
+  "end_time": "2026-07-26 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Freddy K",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-26 21:00:00+02:00",
+  "end_time": "2026-07-26 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Netty Hugo",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-26 13:30:00+02:00",
+  "end_time": "2026-07-26 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Quelza",
+  "stage_name": "CAGE",
+  "start_time": "2026-07-26 17:00:00+02:00",
+  "end_time": "2026-07-26 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Bella Claxton b2b Paige Tomlinson",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-26 18:00:00+02:00",
+  "end_time": "2026-07-26 19:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "HU",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-26 21:00:00+02:00",
+  "end_time": "2026-07-26 22:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Kyle Starkey",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-26 16:30:00+02:00",
+  "end_time": "2026-07-26 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Lisa Korver",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-26 13:30:00+02:00",
+  "end_time": "2026-07-26 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Mendosa",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-26 12:30:00+02:00",
+  "end_time": "2026-07-26 13:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Morgan Seatree",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-26 19:30:00+02:00",
+  "end_time": "2026-07-26 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Newtone",
+  "stage_name": "CELESTIA BY KUCOIN",
+  "start_time": "2026-07-26 15:00:00+02:00",
+  "end_time": "2026-07-26 16:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Benwal b2b LB aka Labat",
+  "stage_name": "CORE",
+  "start_time": "2026-07-26 20:30:00+02:00",
+  "end_time": "2026-07-26 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Catalina",
+  "stage_name": "CORE",
+  "start_time": "2026-07-26 12:00:00+02:00",
+  "end_time": "2026-07-26 13:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Helena Lauwaert",
+  "stage_name": "CORE",
+  "start_time": "2026-07-26 17:00:00+02:00",
+  "end_time": "2026-07-26 18:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Kellar",
+  "stage_name": "CORE",
+  "start_time": "2026-07-26 13:30:00+02:00",
+  "end_time": "2026-07-26 15:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Lammer",
+  "stage_name": "CORE",
+  "start_time": "2026-07-26 18:30:00+02:00",
+  "end_time": "2026-07-26 20:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Malugi",
+  "stage_name": "CORE",
+  "start_time": "2026-07-26 22:00:00+02:00",
+  "end_time": "2026-07-26 23:50:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Saidah",
+  "stage_name": "CORE",
+  "start_time": "2026-07-26 15:30:00+02:00",
+  "end_time": "2026-07-26 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Benja b2b Franc Fala",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-26 12:00:00+02:00",
+  "end_time": "2026-07-26 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Bhaskar",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-26 15:00:00+02:00",
+  "end_time": "2026-07-26 16:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Brina Knauss",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-26 16:30:00+02:00",
+  "end_time": "2026-07-26 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Kevin de Vries b2b Meduza",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-26 21:30:00+02:00",
+  "end_time": "2026-07-27 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Like Mike",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-26 18:00:00+02:00",
+  "end_time": "2026-07-26 19:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Mind Against",
+  "stage_name": "CRYSTAL GARDEN",
+  "start_time": "2026-07-26 19:30:00+02:00",
+  "end_time": "2026-07-26 21:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Dino",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-26 13:00:00+02:00",
+  "end_time": "2026-07-26 14:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Jaël Ost & MagiK",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-26 21:00:00+02:00",
+  "end_time": "2026-07-26 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Karakals",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-26 17:00:00+02:00",
+  "end_time": "2026-07-26 18:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Kav Verhouzer & de Hofnar presents: Eurodance",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-26 19:30:00+02:00",
+  "end_time": "2026-07-26 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Lennert Wolfs",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-26 16:00:00+02:00",
+  "end_time": "2026-07-26 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Michael Amani",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-26 22:00:00+02:00",
+  "end_time": "2026-07-26 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Michael Amani & Friends",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-26 23:00:00+02:00",
+  "end_time": "2026-07-27 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Reeze",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-26 14:30:00+02:00",
+  "end_time": "2026-07-26 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Vikkstar",
+  "stage_name": "ELIXIR",
+  "start_time": "2026-07-26 18:30:00+02:00",
+  "end_time": "2026-07-26 19:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Amelie Lens presents Aura",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-26 22:00:00+02:00",
+  "end_time": "2026-07-26 23:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Artbat",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-26 20:30:00+02:00",
+  "end_time": "2026-07-26 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Axel Haube",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-26 13:30:00+02:00",
+  "end_time": "2026-07-26 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Fideles",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-26 17:30:00+02:00",
+  "end_time": "2026-07-26 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Korolova",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-26 16:00:00+02:00",
+  "end_time": "2026-07-26 17:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Laura Hoogland",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-26 12:00:00+02:00",
+  "end_time": "2026-07-26 13:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "More to be announced",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-26 19:00:00+02:00",
+  "end_time": "2026-07-26 20:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Push only",
+  "stage_name": "FREEDOM BY BUD",
+  "start_time": "2026-07-26 15:00:00+02:00",
+  "end_time": "2026-07-26 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Bassjackers",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-26 19:00:00+02:00",
+  "end_time": "2026-07-26 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "DJ F.R.A.N.K",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-26 17:00:00+02:00",
+  "end_time": "2026-07-26 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "DJ Lex",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-26 13:00:00+02:00",
+  "end_time": "2026-07-26 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Emi Navarro",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-26 15:00:00+02:00",
+  "end_time": "2026-07-26 15:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Joel Corry",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-26 20:00:00+02:00",
+  "end_time": "2026-07-26 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Macker",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-26 15:30:00+02:00",
+  "end_time": "2026-07-26 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Mess",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-26 14:00:00+02:00",
+  "end_time": "2026-07-26 14:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Sebastian Rivero",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-26 14:30:00+02:00",
+  "end_time": "2026-07-26 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "The Criminal Sounds",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-26 16:00:00+02:00",
+  "end_time": "2026-07-26 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "The Rocketman",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-26 21:00:00+02:00",
+  "end_time": "2026-07-26 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "TIGERLILY",
+  "stage_name": "HOUSE OF FORTUNE BY JBL",
+  "start_time": "2026-07-26 18:00:00+02:00",
+  "end_time": "2026-07-26 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Afrojack b2b R3hab",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-26 19:40:00+02:00",
+  "end_time": "2026-07-26 20:40:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Chase & Status (DJ set)",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-26 17:35:00+02:00",
+  "end_time": "2026-07-26 18:35:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Cyril",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-26 15:30:00+02:00",
+  "end_time": "2026-07-26 16:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "DISCOVERY",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-26 12:00:00+02:00",
+  "end_time": "2026-07-26 14:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Lost Frequencies",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-26 20:40:00+02:00",
+  "end_time": "2026-07-26 21:40:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Lucas & Steve",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-26 16:30:00+02:00",
+  "end_time": "2026-07-26 17:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Martin Garrix",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-26 22:50:00+02:00",
+  "end_time": "2026-07-26 23:50:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Odd Mob",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-26 14:30:00+02:00",
+  "end_time": "2026-07-26 15:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Sara Landry",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-26 18:40:00+02:00",
+  "end_time": "2026-07-26 19:40:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Steve Aoki",
+  "stage_name": "MAINSTAGE",
+  "start_time": "2026-07-26 21:45:00+02:00",
+  "end_time": "2026-07-26 22:45:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Alex Kennon",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-26 18:30:00+02:00",
+  "end_time": "2026-07-26 19:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Bobbi Antonni",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-26 14:00:00+02:00",
+  "end_time": "2026-07-26 15:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Cristiano Da Silva",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-26 15:30:00+02:00",
+  "end_time": "2026-07-26 16:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Delafino & Luna Fino",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-26 20:30:00+02:00",
+  "end_time": "2026-07-26 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Dominico",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-26 12:00:00+02:00",
+  "end_time": "2026-07-26 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Eli Rojas",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-26 22:00:00+02:00",
+  "end_time": "2026-07-26 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Oriol Calvo",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-26 19:30:00+02:00",
+  "end_time": "2026-07-26 20:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Rayco Santos",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-26 16:30:00+02:00",
+  "end_time": "2026-07-26 17:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Valentín Huedo",
+  "stage_name": "MELODIA BY CORONA",
+  "start_time": "2026-07-26 17:30:00+02:00",
+  "end_time": "2026-07-26 18:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Brian",
+  "stage_name": "MOOSE BAR",
+  "start_time": "2026-07-26 16:00:00+02:00",
+  "end_time": "2026-07-26 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Jan V",
+  "stage_name": "MOOSE BAR",
+  "start_time": "2026-07-26 20:00:00+02:00",
+  "end_time": "2026-07-27 00:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Mr. E",
+  "stage_name": "MOOSE BAR",
+  "start_time": "2026-07-26 12:00:00+02:00",
+  "end_time": "2026-07-26 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Peter Wackel",
+  "stage_name": "MOOSE BAR",
+  "start_time": "2026-07-26 19:00:00+02:00",
+  "end_time": "2026-07-26 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "ANAYA",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-26 15:00:00+02:00",
+  "end_time": "2026-07-26 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Chuckie",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-26 23:00:00+02:00",
+  "end_time": "2026-07-26 23:50:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Deorro",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-26 19:00:00+02:00",
+  "end_time": "2026-07-26 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Laidback Luke",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-26 20:00:00+02:00",
+  "end_time": "2026-07-26 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "More to be announced",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-26 16:00:00+02:00",
+  "end_time": "2026-07-26 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Okayval",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-26 13:00:00+02:00",
+  "end_time": "2026-07-26 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Olivex",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-26 12:00:00+02:00",
+  "end_time": "2026-07-26 13:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Quintino",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-26 22:00:00+02:00",
+  "end_time": "2026-07-26 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Sick individuals",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-26 18:00:00+02:00",
+  "end_time": "2026-07-26 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Superheroes",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-26 21:00:00+02:00",
+  "end_time": "2026-07-26 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Vassy",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-26 16:00:00+02:00",
+  "end_time": "2026-07-26 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Yves V b2b StadiumX",
+  "stage_name": "PLANAXIS",
+  "start_time": "2026-07-26 17:00:00+02:00",
+  "end_time": "2026-07-26 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Bassjackers",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-26 21:00:00+02:00",
+  "end_time": "2026-07-26 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Brennan Heart",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-26 23:00:00+02:00",
+  "end_time": "2026-07-26 23:55:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Darren Styles",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-26 15:00:00+02:00",
+  "end_time": "2026-07-26 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Diego Miranda b2b Jerry Davila",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-26 14:00:00+02:00",
+  "end_time": "2026-07-26 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Dimitri Vegas b2b Nico Moreno",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-26 22:00:00+02:00",
+  "end_time": "2026-07-26 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Joel Corry",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-26 18:00:00+02:00",
+  "end_time": "2026-07-26 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Kaaze",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-26 16:00:00+02:00",
+  "end_time": "2026-07-26 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Lucca van Damme",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-26 13:00:00+02:00",
+  "end_time": "2026-07-26 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "NERVO",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-26 19:00:00+02:00",
+  "end_time": "2026-07-26 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Nico Moreno",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-26 20:00:00+02:00",
+  "end_time": "2026-07-26 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Paris Hilton",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-26 17:00:00+02:00",
+  "end_time": "2026-07-26 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Zero Gravity",
+  "stage_name": "THE GREAT LIBRARY",
+  "start_time": "2026-07-26 12:00:00+02:00",
+  "end_time": "2026-07-26 13:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Benny Plays",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-26 13:00:00+02:00",
+  "end_time": "2026-07-26 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "D. Guaetta b2b Neon",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-26 19:00:00+02:00",
+  "end_time": "2026-07-26 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "DXNØ",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-26 22:00:00+02:00",
+  "end_time": "2026-07-26 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "EME",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-26 15:00:00+02:00",
+  "end_time": "2026-07-26 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Hyalyte",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-26 20:00:00+02:00",
+  "end_time": "2026-07-26 21:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Kriss Reeve",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-26 16:00:00+02:00",
+  "end_time": "2026-07-26 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Leenders",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-26 21:00:00+02:00",
+  "end_time": "2026-07-26 22:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Mr. Rewind",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-26 18:00:00+02:00",
+  "end_time": "2026-07-26 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Muze",
+  "stage_name": "THE RAVE CAVE",
+  "start_time": "2026-07-26 17:00:00+02:00",
+  "end_time": "2026-07-26 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "BassBrain",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-26 12:00:00+02:00",
+  "end_time": "2026-07-26 13:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Coone",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-26 19:00:00+02:00",
+  "end_time": "2026-07-26 20:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "D-Charged b2b Serzo",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-26 14:00:00+02:00",
+  "end_time": "2026-07-26 15:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Da Tweekaz",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-26 20:00:00+02:00",
+  "end_time": "2026-07-26 21:30:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Hard Driver",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-26 16:00:00+02:00",
+  "end_time": "2026-07-26 17:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Lost Identity",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-26 13:00:00+02:00",
+  "end_time": "2026-07-26 14:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Mark With A K & MC Chucky",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-26 15:00:00+02:00",
+  "end_time": "2026-07-26 16:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Sound Rush",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-26 18:00:00+02:00",
+  "end_time": "2026-07-26 19:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "The Purge",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-26 17:00:00+02:00",
+  "end_time": "2026-07-26 18:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "The Straikerz",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-26 22:15:00+02:00",
+  "end_time": "2026-07-26 23:00:01+02:00",
+  "genre": null
+ },
+ {
+  "day": "2026-07-26",
+  "artist_name": "Warface",
+  "stage_name": "THE ROSE GARDEN",
+  "start_time": "2026-07-26 21:30:00+02:00",
+  "end_time": "2026-07-26 22:15:01+02:00",
   "genre": null
  }
 ]

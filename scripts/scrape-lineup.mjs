@@ -55,6 +55,17 @@ async function discoverEventAndUuid() {
   return { event: lu.event, uuid: lu.uuid }
 }
 
+// A Tomorrowland day runs ~12:00 to ~01:00, so a set starting 00:00–06:59 belongs
+// to the PREVIOUS calendar day's session (which is how the official tabs group them).
+function festivalDayFor(rawDate, startTime) {
+  if (!rawDate || !startTime) return rawDate
+  const hh = parseInt(String(startTime).slice(11, 13), 10)
+  if (Number.isNaN(hh) || hh >= 7) return rawDate
+  const d = new Date(`${rawDate}T12:00:00Z`)
+  d.setUTCDate(d.getUTCDate() - 1)
+  return d.toISOString().slice(0, 10)
+}
+
 async function main() {
   console.log('→ Discovering EVENT / UUID from official page…')
   const { event, uuid } = await discoverEventAndUuid()
@@ -72,25 +83,21 @@ async function main() {
   const seen = new Set()
   const rows = []
   for (const p of performances) {
-    const day = p?.date
-    if (!W2_DAYS.has(day)) continue
     const artist_name = p?.name?.trim()
     const stage_name = p?.stage?.name?.trim()
     if (!artist_name || !stage_name) continue
-    const key = `${day}|${artist_name}|${stage_name}`
-    if (seen.has(key)) continue
-    seen.add(key)
     // Times are only real when withTimetable is true; otherwise store null.
     const real = withTimetable && p?.startTime && p?.endTime &&
       !(p.startTime.includes('12:00:00') && p.endTime.includes('12:01:00'))
-    rows.push({
-      day,
-      artist_name,
-      stage_name,
-      start_time: real ? p.startTime : null,
-      end_time: real ? p.endTime : null,
-      genre: null
-    })
+    const start_time = real ? p.startTime : null
+    const end_time = real ? p.endTime : null
+    // Group by festival day, not the raw calendar date of the start time.
+    const day = festivalDayFor(p?.date, start_time)
+    if (!W2_DAYS.has(day)) continue
+    const key = `${day}|${artist_name}|${stage_name}`
+    if (seen.has(key)) continue
+    seen.add(key)
+    rows.push({ day, artist_name, stage_name, start_time, end_time, genre: null })
   }
 
   rows.sort((a, b) => a.day.localeCompare(b.day) || a.stage_name.localeCompare(b.stage_name) || a.artist_name.localeCompare(b.artist_name))
