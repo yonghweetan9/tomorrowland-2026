@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { supabase } from '../../supabaseClient'
 import { DAYS, dayShort, hhmm } from '../../lib/festival'
+import LineupGrid from '../LineupGrid'
 
 // Loads lineup from Supabase; if the table isn't seeded yet, falls back to the
 // bundled public/lineup_seed.json so the tab is never empty.
@@ -37,6 +38,7 @@ export default function LineupTab({ me, onShare, goItinerary, showToast }) {
   const [day, setDay] = useState('all')
   const [q, setQ] = useState('')
   const [sort, setSort] = useState('artist') // artist | stage
+  const [gridOpen, setGridOpen] = useState(false)
   const [mine, setMine] = useState(new Set()) // lineup row keys already in itinerary by me
 
   // Track which sets I've already added (to flip the affordance).
@@ -96,7 +98,10 @@ export default function LineupTab({ me, onShare, goItinerary, showToast }) {
           <h1 className="screen-title">Lineup</h1>
           <p className="screen-sub">{rows ? `${rows.length} sets · Weekend 2` : 'Loading…'}</p>
         </div>
-        <button className="btn btn-ghost btn-sm" onClick={onShare}>🔗 Share</button>
+        <div className="head-actions">
+          <button className="btn btn-ghost btn-sm" onClick={() => setGridOpen(true)}>▦ Grid View</button>
+          <button className="btn btn-ghost btn-sm" onClick={onShare}>🔗 Share</button>
+        </div>
       </div>
 
       <input className="field" placeholder="Search artist or stage…" value={q} onChange={e => setQ(e.target.value)} />
@@ -158,7 +163,10 @@ export default function LineupTab({ me, onShare, goItinerary, showToast }) {
           border:1px solid var(--line);font-size:.95rem;display:grid;place-items:center;transition:.15s}
         .add-btn:active{transform:scale(.9)}
         .add-btn.added{background:var(--grad-btn);border-color:transparent;box-shadow:var(--glow)}
+        .head-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
       `}</style>
+
+      {gridOpen && <LineupGrid rows={rows} onClose={() => setGridOpen(false)} />}
     </div>
   )
 }
