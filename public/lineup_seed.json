@@ -193,14 +193,6 @@
  },
  {
   "day": "2026-07-24",
-  "artist_name": "More to be announced",
-  "stage_name": "CELESTIA BY KUCOIN",
-  "start_time": "2026-07-24 20:00:00+02:00",
-  "end_time": "2026-07-24 21:30:01+02:00",
-  "genre": null
- },
- {
-  "day": "2026-07-24",
   "artist_name": "Mr. Belt & Wezol",
   "stage_name": "CELESTIA BY KUCOIN",
   "start_time": "2026-07-24 20:00:00+02:00",
@@ -2081,14 +2073,6 @@
  },
  {
   "day": "2026-07-25",
-  "artist_name": "More to be announced",
-  "stage_name": "THE RAVE CAVE",
-  "start_time": "2026-07-25 13:00:00+02:00",
-  "end_time": "2026-07-25 14:30:01+02:00",
-  "genre": null
- },
- {
-  "day": "2026-07-25",
   "artist_name": "Netherworld",
   "stage_name": "THE RAVE CAVE",
   "start_time": "2026-07-25 23:00:00+02:00",
@@ -2909,14 +2893,6 @@
   "stage_name": "PLANAXIS",
   "start_time": "2026-07-26 20:00:00+02:00",
   "end_time": "2026-07-26 21:00:01+02:00",
-  "genre": null
- },
- {
-  "day": "2026-07-26",
-  "artist_name": "More to be announced",
-  "stage_name": "PLANAXIS",
-  "start_time": "2026-07-26 16:00:00+02:00",
-  "end_time": "2026-07-26 17:00:01+02:00",
   "genre": null
  },
  {

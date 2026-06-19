@@ -100,12 +100,21 @@ async function main() {
     rows.push({ day, artist_name, stage_name, start_time, end_time, genre: null })
   }
 
-  rows.sort((a, b) => a.day.localeCompare(b.day) || a.stage_name.localeCompare(b.stage_name) || a.artist_name.localeCompare(b.artist_name))
+  // Drop stale "More to be announced" placeholders when a real act now fills the
+  // same stage + start slot (the CDN keeps both until the slot is fully replaced).
+  const occupied = new Set(rows
+    .filter(r => r.start_time && r.artist_name.toLowerCase() !== 'more to be announced')
+    .map(r => `${r.day}|${r.stage_name}|${r.start_time}`))
+  const deduped = rows.filter(r => !(
+    r.artist_name.toLowerCase() === 'more to be announced' &&
+    r.start_time && occupied.has(`${r.day}|${r.stage_name}|${r.start_time}`)))
 
-  const byDay = rows.reduce((o, r) => ((o[r.day] = (o[r.day] || 0) + 1), o), {})
-  console.log(`→ ${rows.length} unique W2 rows:`, byDay)
+  deduped.sort((a, b) => a.day.localeCompare(b.day) || a.stage_name.localeCompare(b.stage_name) || a.artist_name.localeCompare(b.artist_name))
 
-  const out = JSON.stringify(rows, null, 1)
+  const byDay = deduped.reduce((o, r) => ((o[r.day] = (o[r.day] || 0) + 1), o), {})
+  console.log(`→ ${deduped.length} unique W2 rows:`, byDay)
+
+  const out = JSON.stringify(deduped, null, 1)
   writeFileSync(join(ROOT, 'scripts', 'lineup_seed.json'), out)
   writeFileSync(join(ROOT, 'public', 'lineup_seed.json'), out)
   console.log('✓ Wrote scripts/lineup_seed.json and public/lineup_seed.json')
