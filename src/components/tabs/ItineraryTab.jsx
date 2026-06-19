@@ -173,7 +173,7 @@ export default function ItineraryTab({ me, members, showToast }) {
           <div className="tl-events">
             {ev.map(x => {
               const top = (x.s / 60) * HOUR_PX
-              const height = Math.max(34, ((x.e - x.s) / 60) * HOUR_PX - 4)
+              const height = Math.max(46, ((x.e - x.s) / 60) * HOUR_PX - 2)
               const w = `calc((100% - 4px) / ${nCols})`
               const left = `calc(${x.col} * (100% - 4px) / ${nCols})`
               return (
@@ -187,7 +187,7 @@ export default function ItineraryTab({ me, members, showToast }) {
         </div>
       </div>
 
-      {editing && <TimeSheet block={editing} onClose={() => setEditing(null)} onSave={saveTime} />}
+      {editing && <TimeSheet block={editing} onClose={() => setEditing(null)} onSave={saveTime} onDelete={() => { const b = editing; setEditing(null); setConfirmDel(b) }} />}
       {confirmDel && createPortal(
         <div className="sheet-bg" onClick={() => setConfirmDel(null)}>
           <div className="sheet" onClick={e => e.stopPropagation()}>
@@ -229,8 +229,45 @@ function BlockCard({ block, me, memberById, onEdit, onDelete, compact, inGrid })
   const adders = block.rows.map(r => memberById[r.added_by]).filter(Boolean)
   const t = hhmm(block.start_time)
   const te = hhmm(block.end_time)
+
+  // Compact timeline block: fits short sets, whole card taps to edit/remove.
+  if (inGrid) {
+    return (
+      <div className="block-card card in-grid" onClick={onEdit} title="Tap to edit time or remove">
+        <div className="ig-r1">
+          <span className="ig-artist">{block.artist_name}</span>
+          {t && <span className="ig-time">{t}{te ? `–${te}` : ''}</span>}
+        </div>
+        <div className="ig-r2">
+          <span className="ig-stage">{block.stage_name}</span>
+          <div className="avatar-stack ig-av">
+            {adders.slice(0, 4).map(m => (
+              <div key={m.id} className="avatar" style={{ background: m.color }} title={m.display_name}>{initials(m.display_name)}</div>
+            ))}
+            {adders.length > 4 && <div className="avatar more">+{adders.length - 4}</div>}
+          </div>
+        </div>
+        <style>{`
+          .block-card.in-grid{height:100%;overflow:hidden;padding:5px 8px;display:flex;
+            flex-direction:column;justify-content:center;gap:3px;cursor:pointer}
+          .ig-r1{display:flex;align-items:center;gap:6px;min-width:0}
+          .ig-artist{font-weight:700;font-size:.8rem;line-height:1.12;flex:1 1 auto;min-width:0;
+            white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+          .ig-time{flex:0 0 auto;font-size:.62rem;font-weight:700;color:var(--teal);white-space:nowrap}
+          .ig-r2{display:flex;align-items:center;justify-content:space-between;gap:6px;min-width:0}
+          .ig-stage{flex:1 1 auto;min-width:0;font-size:.62rem;color:var(--ink-faint);
+            text-transform:uppercase;letter-spacing:.03em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+          .ig-av .avatar{width:18px;height:18px;font-size:.55rem;border-width:1px}
+          .ig-av .avatar:not(:first-child){margin-left:-6px}
+          .ig-av .more{background:#3a2d5e;color:var(--ink-dim)}
+        `}</style>
+      </div>
+    )
+  }
+
+  // Tray (TBA) card: roomy, with edit + delete buttons.
   return (
-    <div className={'block-card card' + (inGrid ? ' in-grid' : '')}>
+    <div className="block-card card">
       <div className="bc-top">
         <div className="bc-main">
           <div className="bc-artist">{block.artist_name}</div>
@@ -252,7 +289,6 @@ function BlockCard({ block, me, memberById, onEdit, onDelete, compact, inGrid })
       </div>
       <style>{`
         .block-card{padding:10px 11px}
-        .block-card.in-grid{height:100%;overflow:hidden}
         .bc-top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
         .bc-artist{font-weight:700;font-size:.92rem;line-height:1.15}
         .bc-stage{font-size:.7rem;color:var(--ink-faint);text-transform:uppercase;letter-spacing:.04em;margin-top:2px}
@@ -264,7 +300,7 @@ function BlockCard({ block, me, memberById, onEdit, onDelete, compact, inGrid })
   )
 }
 
-function TimeSheet({ block, onClose, onSave }) {
+function TimeSheet({ block, onClose, onSave, onDelete }) {
   const [start, setStart] = useState(hhmm(block.start_time) ?? '')
   const [end, setEnd] = useState(hhmm(block.end_time) ?? '')
   return createPortal(
@@ -282,6 +318,12 @@ function TimeSheet({ block, onClose, onSave }) {
           <button className="btn btn-ghost btn-block" onClick={() => onSave(block, '', '')}>Clear (→ TBA)</button>
           <button className="btn btn-block" onClick={() => onSave(block, start, end)} disabled={!start}>Save</button>
         </div>
+        {onDelete && (
+          <button className="ts-remove" onClick={onDelete}>🗑 Remove from itinerary</button>
+        )}
+        <style>{`.ts-remove{width:100%;margin-top:12px;padding:11px;border-radius:12px;background:none;
+          border:1px solid var(--line);color:#ff7a9c;font-size:.85rem;font-weight:600}
+          .ts-remove:active{transform:scale(.98)}`}</style>
       </div>
     </div>,
     document.body
